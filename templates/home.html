@@ -1,19 +1,28 @@
+
 {% extends 'base.html' %}
+
+{% load static %}
+
 
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<br />
-<div class="jumbotron">
-  <h1 class="display-4">EasyConnect</h1>
-  <p class="lead">A Message App for Business.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#"
-      role="button">Client Sign In</a>
+
+
+<div class="jumbotron1">
+  <!-- <h1 class="display-4">EasyConnect</h1> -->
+  <a class="logo" href="{% url 'home' %}"><img src= "{% static 'homepagepic.png' %}" alt="EasyConnect"></a>
+  <p class="lead1">A Message App for Business.</p>
+  <p class="lead2">
+    <a class="btn btn-primary btn-md" href="#"
+      role="button">Client</a>
+    <a class="btn btn-primary btn-md" href="#"
+      role="button">Admin</a>
+      <a class="btn btn-primary btn-md" href="#"
+      role="button">Sign Up</a>
   </p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#"
-      role="button">Admin Sign In</a>
+    
   </p>
 </div>
 {% endblock content %}
