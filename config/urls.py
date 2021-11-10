@@ -9,4 +9,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('profile/', include('Easyconnect.urls'), name='profile'),
     path('', include('EasyConnect.urls')),
+    path('', include('customuser.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

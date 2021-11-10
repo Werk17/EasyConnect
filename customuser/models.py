@@ -17,6 +17,7 @@ class CustomUser(AbstractUser):
     phone_number = models.CharField(verbose_name=("Phone Number"), validators=[phone_regex], max_length=17, blank=True) # validators should be a list
     additional_info = models.TextField(verbose_name=("Additional Info"), max_length=500, null=True, blank=True)
     photo = models.ImageField(verbose_name=("Photo"), upload_to='photos/', default = 'photos/default.png', null=True, blank=True)
+    Organizational_pin = models.CharField(verbose_name=("Organization Pin"), max_length=50, null=True, blank=True)
 
     class Meta:
         ordering = ('last_name',)
