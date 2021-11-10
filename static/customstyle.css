@@ -17,8 +17,8 @@ body {
 
 .main_content {
     background-color: #fff;
-    color: #bdb8d7;
-    margin-left: 330px;
+    color: #4b4276;
+    margin-left: 350px;
    
 }
 
@@ -30,10 +30,11 @@ body {
 
 .wrapper .sidebar {
     position: fixed;
-    width: 320px;
+    width: 330px;
     height: 100%;
     background: #4b4276;
-    padding: 30px 0;
+    padding: 20px 0;
+
 }
 
 .wrapper .sidebar h2 {
@@ -75,8 +76,10 @@ body {
 
 }
 .lead1 {
-    text-align: right;
+    padding: 0 0 0 80px;
+    text-align: auto;
     color:#bdb8d7
+    
 }
 .lead2 {
     text-align: center;
