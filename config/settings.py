@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'log_viewer',
     'EasyConnect',
     'customuser',
     
@@ -134,3 +135,66 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 AUTH_USER_MODEL = 'customuser.CustomUser'
+
+LOG_VIEWER_FILES = ['EasyConnectSiteLogs.log', 'EasyConnectDebug.log', 'EasyConnectError.log',]
+LOG_VIEWER_FILES_PATTERN = '*.log*'
+LOG_VIEWER_FILES_DIR = 'logs/'
+LOG_VIEWER_PAGE_LENGTH = 25       # total log lines per-page
+LOG_VIEWER_MAX_READ_LINES = 1000  # total log lines will be read
+LOG_VIEWER_PATTERNS = ['[INFO]', '[DEBUG]', '[WARNING]', '[ERROR]', '[CRITICAL]']
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': '[%(levelname)s] %(asctime)s %(name)s: %(message)s'
+        },
+    },
+    'handlers': {
+        'default': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/EasyConnectSiteLogs.log',
+            'maxBytes': 1024 * 1024 * 10,
+            'backupCount': 5,
+            'formatter': 'standard',
+        },
+        'request_debug_handler': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/EasyConnectDebug.log',
+            'maxBytes': 1024 * 1024 * 10,
+            'backupCount': 5,
+            'formatter': 'standard',
+        },
+        'request_error_handler': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/EasyConnectError.log',
+            'maxBytes': 1024 * 1024 * 10,
+            'backupCount': 5,
+            'formatter': 'standard',
+        },
+        'mail_admins_handler': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler',
+            'email_backend': 'django.core.mail.backends.smtp.EmailBackend'
+        },
+    },
+    'root': {
+        'handlers': ['default'],
+        'level': 'DEBUG'
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': [
+                'request_debug_handler',
+                'request_error_handler',
+                'mail_admins_handler'
+            ],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+    }
+}
