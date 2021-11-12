@@ -1,0 +1,40 @@
+[INFO] 2021-11-11 19:46:21,361 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[INFO] 2021-11-11 19:46:22,592 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2021-11-11 19:46:27,362 customuser.views: User  failed to log in: in 177.9401 ms
+[ERROR] 2021-11-11 19:46:29,176 customuser.views: User  failed to log in: in 158.6978 ms
+[INFO] 2021-11-11 19:46:58,165 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/config/settings.py changed, reloading.
+[INFO] 2021-11-11 19:46:59,337 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-11 19:47:41,604 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/config/settings.py changed, reloading.
+[DEBUG] 2021-11-11 19:47:41,604 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-11 19:47:42,799 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-11 19:48:47,618 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-11-11 19:48:47,620 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-11 19:48:48,860 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-11 19:49:25,081 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/TokenLoginHandler.py changed, reloading.
+[DEBUG] 2021-11-11 19:49:25,082 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-11 19:49:26,254 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2021-11-11 19:49:43,462 customuser.views: User  failed to log in: in 179.2169 ms
+[ERROR] 2021-11-11 19:49:47,664 customuser.views: User  failed to log in: in 214.0942 ms
+[INFO] 2021-11-11 19:50:21,278 customuser.TokenLoginHandler: User not found in file (testingsomelogs) at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,279 customuser.TokenLoginHandler: User not found in file (testingsomelogs) at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,279 customuser.TokenLoginHandler: Wrote tokens to file in 0.1411 ms, at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,279 customuser.TokenLoginHandler: Generated token for user: testingsomelogs in 0.9761 ms, at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,505 customuser.TokenLoginHandler: Read token from file for user: testingsomelogs, at Thu Nov 11 19:50:21 2021 in 0.1981 ms
+[INFO] 2021-11-11 19:50:21,505 customuser.TokenLoginHandler: Found token for user: testingsomelogs in 0.4699 ms, at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,506 customuser.TokenLoginHandler: Read token from file for user: testingsomelogs, at Thu Nov 11 19:50:21 2021 in 0.205 ms
+[INFO] 2021-11-11 19:50:21,506 customuser.TokenLoginHandler: Found token for user: testingsomelogs in 0.4671 ms, at Thu Nov 11 19:50:21 2021
+[INFO] 2021-11-11 19:50:21,506 customuser.views: Token generated for testingsomelogs: wgzb4sE_PGnnSE8q_Nph6Q in 241.7352 ms
+[INFO] 2021-11-11 19:50:25,816 customuser.views: User testingsomelogs logged in: in 166.0242 ms
+[INFO] 2021-11-11 19:56:13,965 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/forms.py changed, reloading.
+[DEBUG] 2021-11-11 19:56:13,984 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-11 19:56:15,273 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-11 19:56:15,276 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-11 19:56:15,277 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-11 19:56:15,343 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-11 19:58:04,141 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/config/settings.py changed, reloading.
+[DEBUG] 2021-11-11 19:58:04,142 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-11 19:58:05,317 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-11 19:58:05,320 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-11 19:58:05,320 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-11 19:58:05,364 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-11 19:59:23,976 asyncio: Using selector: KqueueSelector

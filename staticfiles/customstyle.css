@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    background: #212121;
+}
+
+.main_content {
+    background-color: #fff;
+    color: #4b4276;
+    margin-left: 350px;
+   
+}
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 330px;
+    height: 100%;
+    background: #4b4276;
+    padding: 20px 0;
+
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+}
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover {
+    background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+
+.header {
+    background-color: #4b4276;
+    width: 100%;
+    margin-left: auto;
+}
+
+.jumbotron1 {
+    background: #4b4276;
+    margin-left: 0px;
+    display: inline;
+
+}
+.lead1 {
+    padding: 0 0 0 80px;
+    text-align: auto;
+    color:#bdb8d7
+    
+}
+.lead2 {
+    text-align: center;
+}

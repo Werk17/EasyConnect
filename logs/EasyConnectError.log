@@ -1,0 +1,9 @@
+[ERROR] 2021-11-11 19:45:23,903 django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 88, in login_view
+    logger.ERROR('User ' + username + ' failed to log in: in ' + str(round((time.time() - sw) * 1000, 4)) + ' ms')
+AttributeError: 'Logger' object has no attribute 'ERROR'

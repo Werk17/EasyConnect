@@ -13,8 +13,6 @@ class TokenLoginHandler:
         self.token_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'token_file.txt')
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.DEBUG)
-        self.logger.addHandler(logging.handlers.RotatingFileHandler(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'token_login_handler.log'), maxBytes=1048576, backupCount=5))
-        self.logger.info('TokenLoginHandler initialized')
     
     # a function that reads in a string, and generates a token and adds it to the dictionary
     def generate_token(self, username):
