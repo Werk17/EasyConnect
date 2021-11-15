@@ -27,7 +27,6 @@
       </div>
       <ul>
         <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
-        <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
         <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
         <li><a href="#"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
         <li><a href="#"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
@@ -41,25 +40,22 @@
   </div>
 
   <div class="main_content">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate culpa dolore, recusandae iure nemo
-      voluptate quisquam aliquid. Accusamus quod modi quo harum quis adipisci repellendus possimus soluta impedit
-      suscipit?
-      Maiores in iure delectus, modi cumque distinctio id ullam dolorum, neque labore aut placeat illo dignissimos
-      suscipit ducimus aspernatur eos eveniet corporis fuga? Eaque odio esse est pariatur, ipsam quis!</p>
+    {% if not request.user.is_authenticated %}
+      <p>Please login to view profile page Information</p>
+    {% else %}
+      <p> username is {{user.username}} </p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate culpa dolore, recusandae iure nemo
-      voluptate quisquam aliquid. Accusamus quod modi quo harum quis adipisci repellendus possimus soluta impedit
-      suscipit?
-      Maiores in iure delectus, modi cumque distinctio id ullam dolorum, neque labore aut placeat illo dignissimos
-      suscipit ducimus aspernatur eos eveniet corporis fuga? Eaque odio esse est pariatur, ipsam quis!</p>
-        
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate culpa dolore, recusandae iure nemo
-      voluptate quisquam aliquid. Accusamus quod modi quo harum quis adipisci repellendus possimus soluta impedit
-      suscipit?
-      Maiores in iure delectus, modi cumque distinctio id ullam dolorum, neque labore aut placeat illo dignissimos
-      suscipit ducimus aspernatur eos eveniet corporis fuga? Eaque odio esse est pariatur, ipsam quis!</p>
-    <span>Hello, {{request.user}}</span>
-    <span><a href="{% url 'logout' %}">Logout</a></span>
+      <p> email is {{user.email}} </p>
+      <p> first name is {{user.first_name}} </p>
+      <p> last name is {{user.last_name}} </p>
+      <p> phone number is {{user.phone_number}} </p>
+      <p> organization is {{user.Organization_name}} </p>
+      <p> profile picture is <img src="{{user.photo.url}}" alt="ProfilePic"/> </p>
+      <span>Hello, {{user.username}}</span>
+      {% if user.is_superuser %}
+        <p>You are an admin</p>
+      {% endif %}
+    {% endif %}
   </div>
 
   <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
