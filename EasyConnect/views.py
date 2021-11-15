@@ -1,8 +1,11 @@
 from django.views.generic import TemplateView
+from django.shortcuts import render
 
-class HomePageView(TemplateView):
-    template_name = 'home.html'
+def HomePageView(request):
+    context = {}
+    return render(request, 'home.html', context)
 
-class ProfileView(TemplateView):
-    template_name = 'profile.html'
+def ProfileView(request):
+    context = {}
+    return render(request, 'profile.html', context)
     
