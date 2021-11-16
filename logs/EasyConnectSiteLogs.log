@@ -262,3 +262,44 @@
 [INFO] 2021-11-15 20:10:33,912 customuser.views: User riley logged in: in 163.2838 ms
 [DEBUG] 2021-11-15 20:10:44,857 asyncio: Using selector: KqueueSelector
 [DEBUG] 2021-11-15 20:10:45,041 asyncio: Using selector: KqueueSelector
+[INFO] 2021-11-15 13:37:57,714 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-15 13:40:23,098 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-15 13:42:33,828 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-15 13:43:43,670 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-15 13:43:43,670 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-15 13:43:43,670 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-15 13:43:44,667 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-15 13:43:44,667 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-15 13:43:44,667 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-15 13:43:44,730 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-15 13:49:21,412 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-15 13:49:21,583 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-15 14:04:11,706 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-15 14:04:11,706 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-15 14:04:11,706 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-15 14:04:12,474 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-15 14:04:12,474 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-15 14:04:12,474 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-15 14:04:12,505 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-15 14:14:47,180 customuser.views: User riley logged in: in 168.0365 ms
+[INFO] 2021-11-15 14:38:04,324 customuser.views: User riley logged out: in 7.9999 ms
+[INFO] 2021-11-15 14:40:54,650 customuser.TokenLoginHandler: User not found in file (organization7) at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,650 customuser.TokenLoginHandler: User not found in file (organization7) at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,650 customuser.TokenLoginHandler: Wrote tokens to file in 0.0 ms, at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,650 customuser.TokenLoginHandler: Generated token for user: Organization 7 in 0.0 ms, at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,834 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:40:54 2021 in 16.0277 ms
+[INFO] 2021-11-15 14:40:54,834 customuser.TokenLoginHandler: Found token for user: Organization 7 in 16.0277 ms, at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,834 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:40:54 2021 in 0.0 ms
+[INFO] 2021-11-15 14:40:54,834 customuser.TokenLoginHandler: Found token for user: Organization 7 in 0.0 ms, at Mon Nov 15 14:40:54 2021
+[INFO] 2021-11-15 14:40:54,834 customuser.views: Token generated for Organization 7: cizzLl1l9tLRedmUZ9Xutw in 239.7897 ms
+[INFO] 2021-11-15 14:42:49,430 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:42:49 2021 in 0.0 ms
+[INFO] 2021-11-15 14:42:49,430 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:42:49 2021 in 0.0 ms
+[INFO] 2021-11-15 14:42:49,430 customuser.TokenLoginHandler: Found token for user: Organization 7 in 0.0 ms, at Mon Nov 15 14:42:49 2021
+[ERROR] 2021-11-15 14:42:49,430 customuser.views: Organization did not excist, or they entered the wrong tokem 32.2502 ms
+[INFO] 2021-11-15 14:43:15,727 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:43:15 2021 in 0.0 ms
+[INFO] 2021-11-15 14:43:15,727 customuser.TokenLoginHandler: Read token from file for user: organization7, at Mon Nov 15 14:43:15 2021 in 0.0 ms
+[INFO] 2021-11-15 14:43:15,727 customuser.TokenLoginHandler: Found token for user: Organization 7 in 0.0 ms, at Mon Nov 15 14:43:15 2021
+[INFO] 2021-11-15 14:43:15,919 customuser.views: Account was created for test8 in 200.1309 ms
+[INFO] 2021-11-15 14:43:27,306 customuser.views: User test8 logged in: in 176.0333 ms
+[DEBUG] 2021-11-15 14:53:02,808 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-15 14:53:02,995 asyncio: Using proactor: IocpProactor

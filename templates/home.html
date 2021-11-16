@@ -1,32 +1,60 @@
-
 {% extends 'base.html' %}
-
 {% load static %}
 
-
 {% block title %}Home{% endblock title %}
-
-{% block content %}
-
+{% block header %}
 
 <div class="jumbotron1">
   <!-- <h1 class="display-4">EasyConnect</h1> -->
-  <a class="logo" href="{% url 'home' %}"><img src= "{% static 'homepagepic.png' %}" alt="EasyConnect"></a>
+  <a class="logo" href="{% url 'home' %}"><img src="{% static 'homepagepic.png' %}" alt="EasyConnect"></a>
   <p class="lead1">A Message App for Business.</p>
   {% if not request.user.is_authenticated %}
-    <p class="lead2">
-      <a class="btn btn-primary btn-md" href="{% url 'login' %}"
-        role="button">Client Sign in</a>
-      <a class="btn btn-primary btn-md" href="{% url 'login' %}"
-        role="button">Admin Sign in</a>
-      
-    </p>
-    <p class="lead2">
-      <a class="btn btn-primary btn-md" href="{% url 'choosetype' %}"
-      role="button">Sign Up</a>
-    </p>
+  <p class="lead2">
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Sign in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Sign in</a>
+
+  </p>
+  <p class="lead2">
+    <a class="btn btn-primary btn-md" href="{% url 'choosetype' %}" role="button">Sign Up</a>
+  </p>
   {% else %}
-  <p class="lead2"> <a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u></p>
+  <p class="lead2"><a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u></p>
   {% endif %}
 </div>
-{% endblock content %}
+{% endblock header %}
+{% block main %}
+<span>Hello, {{request.user}}</span>
+<span><a href="{% url 'logout' %}">Logout</a></span>
+<br>
+<div class="subcontent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta vitae accusantium ut libero commodi qui
+  consectetur quisquam voluptatem et, dolore hic nemo ipsum, optio ipsa labore, quasi laboriosam doloribus!
+  Praesentium iste corporis maxime repellat, consequuntur provident cupiditate, ipsam, ex magnam fuga nisi cumque harum
+  optio placeat ea quia facilis dolor molestiae hic expedita impedit! Deleniti libero ab facere consequuntur.
+  Qui quisquam accusamus reprehenderit quidem dignissimos officia dolorem ab, eaque obcaecati, sapiente, odit incidunt
+  laboriosam mollitia nostrum aliquam iste laudantium. Voluptatum quo labore perspiciatis repellat magni sed, neque
+  deserunt dolor?
+  Temporibus exercitationem amet sed, eligendi perspiciatis consequuntur provident fugit cumque ex veniam quaerat nobis
+  omnis repellat at nam placeat facilis et mollitia! Error praesentium tenetur perferendis? Ipsa placeat ratione fugit.
+</div>
+<div class="subcontent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta vitae accusantium ut libero commodi qui
+  consectetur quisquam voluptatem et, dolore hic nemo ipsum, optio ipsa labore, quasi laboriosam doloribus!
+  Praesentium iste corporis maxime repellat, consequuntur provident cupiditate, ipsam, ex magnam fuga nisi cumque harum
+  optio placeat ea quia facilis dolor molestiae hic expedita impedit! Deleniti libero ab facere consequuntur.
+  Qui quisquam accusamus reprehenderit quidem dignissimos officia dolorem ab, eaque obcaecati, sapiente, odit incidunt
+  laboriosam mollitia nostrum aliquam iste laudantium. Voluptatum quo labore perspiciatis repellat magni sed, neque
+  deserunt dolor?
+  Temporibus exercitationem amet sed, eligendi perspiciatis consequuntur provident fugit cumque ex veniam quaerat nobis
+  omnis repellat at nam placeat facilis et mollitia! Error praesentium tenetur perferendis? Ipsa placeat ratione fugit.
+</div>
+
+{% endblock main %}
+
+{% block list %}
+<li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
+<li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
+<li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
+<li><a href="#"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
+<li><a href="#"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
+<li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
+<li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+{% endblock list%}
