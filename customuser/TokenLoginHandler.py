@@ -53,7 +53,7 @@ class TokenLoginHandler:
         username = username.lower().replace(' ', '')
         with open(self.token_file_path, 'r') as f:
             for line in f:
-                if username in line:
+                if username in line and len(username) == len(line[:line.find(':')]):
                     token = line.split(':')[1].strip()
                     self.logger.info('Read token from file for user: ' + username + ', at ' + str(time.ctime()) + ' in ' + str(round((time.time() - sw) * 1000, 4)) + ' ms')
                     return token

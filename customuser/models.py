@@ -1,7 +1,17 @@
-from django.contrib.auth.models import AbstractUser 
+from django.contrib.auth.models import AbstractUser, Group 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.core.validators import RegexValidator
+
+org_Choices = (
+    ('GENERAL', 'General'),
+    ('IT', 'Information Technology'),
+    ('R&D', 'Research and Devleopment'),
+    ('SECURITY', 'Security'),
+    ('MARKETING', 'Marketing'),
+    ('FINANCE', 'Finance'),
+    ('HR', 'Human Resources'),
+)
 
 class CustomUser(AbstractUser):
     age = models.PositiveIntegerField(null=True, blank=True)
@@ -18,6 +28,7 @@ class CustomUser(AbstractUser):
     additional_info = models.TextField(verbose_name=("Additional Info"), max_length=500, null=True, blank=True)
     photo = models.ImageField(verbose_name=("Photo"), upload_to='photos/', default = 'photos/default.png', null=True, blank=True)
     Organizational_pin = models.CharField(verbose_name=("Organization Pin"), max_length=50, null=True, blank=True)
+    Organizatoin_user_type = models.CharField(verbose_name=("Organization User Type"), max_length=50, choices=org_Choices, null=True, blank=True, default='GENERAL')
 
     class Meta:
         ordering = ('last_name',)

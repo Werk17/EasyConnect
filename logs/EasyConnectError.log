@@ -396,3 +396,774 @@ Traceback (most recent call last):
   File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 544, in unclosed_block_tag
     raise self.error(token, msg)
 django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 43: 'if'. Looking for one of: endif.
+[ERROR] 2021-11-16 00:55:07,395 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 38, in SignUpAdminView
+    Group.objects.get(name=org_name).user_set.add(group)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 950, in add
+    self._add_items(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1126, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1068, in _get_target_ids
+    raise TypeError(
+TypeError: 'CustomUser' instance expected, got <Group: TestingGroupFunction>
+[ERROR] 2021-11-16 01:09:23,474 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 37, in SignUpAdminView
+    group.save()
+AttributeError: 'tuple' object has no attribute 'save'
+[ERROR] 2021-11-16 01:11:22,964 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 37, in SignUpAdminView
+    form.groups.add(group)
+AttributeError: 'CustomUserCreationAdminForm' object has no attribute 'groups'
+[ERROR] 2021-11-16 01:15:58,436 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 38, in SignUpAdminView
+    form.user_set.add(group)
+AttributeError: 'CustomUserCreationAdminForm' object has no attribute 'user_set'
+[ERROR] 2021-11-16 01:21:46,122 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 37, in SignUpAdminView
+    user = form.object.get(username=form.cleaned_data.get('username'))
+AttributeError: 'CustomUserCreationAdminForm' object has no attribute 'object'
+[ERROR] 2021-11-16 01:24:08,844 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    user.groups.add(group)
+AttributeError: 'str' object has no attribute 'groups'
+[ERROR] 2021-11-16 01:26:45,819 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 37, in SignUpAdminView
+    user= User.objects.get(username=form.cleaned_data.get('username'))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 187, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't available; 'auth.User' has been swapped for 'customuser.CustomUser'
+[ERROR] 2021-11-16 01:35:22,201 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    group.user_set.add(form.instance)
+AttributeError: 'tuple' object has no attribute 'user_set'
+[ERROR] 2021-11-16 01:38:58,237 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 42, in SignUpAdminView
+    groups2[0] = group
+IndexError: list assignment index out of range
+[ERROR] 2021-11-16 01:39:55,911 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    group[0].user_set.add(form.instance)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 950, in add
+    self._add_items(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1126, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1055, in _get_target_ids
+    raise ValueError(
+ValueError: Cannot add "<CustomUser: TestingGroupFunction:  >": instance is on database "default", value is on database "None"
+[ERROR] 2021-11-16 01:41:18,756 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    groups2[count].user_set.add(group)
+AttributeError: 'tuple' object has no attribute 'user_set'
+[ERROR] 2021-11-16 01:42:57,828 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    Group.user_set.add(groups2[count])
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'add'
+[ERROR] 2021-11-16 02:27:14,026 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    group = g.objects.get_or_create(name=org_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 179, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via Group instances
+[ERROR] 2021-11-16 02:30:18,868 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    request.user.groups.add(group)
+AttributeError: 'EmptyManager' object has no attribute 'add'
+[ERROR] 2021-11-16 03:02:40,137 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 42, in SignUpAdminView
+    current_user.groups.add(group)
+AttributeError: 'EmptyManager' object has no attribute 'add'
+[ERROR] 2021-11-16 03:05:10,847 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 31, in SignUpAdminView
+    form = CustomUserCreationAdminForm(request.POST, user=request.user)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 109, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'user'
+[ERROR] 2021-11-16 03:14:04,503 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 31, in SignUpAdminView
+    form = CustomUserCreationAdminForm(request.POST, user=request.user)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 109, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'user'
+[ERROR] 2021-11-16 03:14:40,425 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 42, in SignUpAdminView
+    user.groups.add(group)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 950, in add
+    self._add_items(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1126, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1073, in _get_target_ids
+    target_ids.add(target_field.get_prep_value(obj))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related.py", line 977, in get_prep_value
+    return self.target_field.get_prep_value(value)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got (<Group: SwitchUP>, True).
+[ERROR] 2021-11-16 03:17:31,243 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 42, in SignUpAdminView
+    user.groups.add(group)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 950, in add
+    self._add_items(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1126, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1073, in _get_target_ids
+    target_ids.add(target_field.get_prep_value(obj))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related.py", line 977, in get_prep_value
+    return self.target_field.get_prep_value(value)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got (<Group: SwitchUP2>, True).
+[ERROR] 2021-11-16 03:26:50,175 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 45, in SignUpAdminView
+    group = Group.objects.get_or_create(name=org_name2 + count)
+TypeError: can only concatenate str (not "int") to str
+[ERROR] 2021-11-16 03:29:16,524 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 46, in SignUpAdminView
+    user.groups.add(group)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 950, in add
+    self._add_items(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1126, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 1073, in _get_target_ids
+    target_ids.add(target_field.get_prep_value(obj))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/related.py", line 977, in get_prep_value
+    return self.target_field.get_prep_value(value)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got (<Group: testorg60>, True).
+[ERROR] 2021-11-16 05:51:50,630 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    group = Group.objects.get(name=org_name2 + '_' + i)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 58, in SignUpAdminView
+    messages.error(request, e + ' No Groups were created for this oganization. ')
+TypeError: unsupported operand type(s) for +: 'DoesNotExist' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 64, in SignUpAdminView
+    messages.success(request, 'Token generated for ' + org_name + ': ' + tk.generate_token(org_name))
+TypeError: can only concatenate str (not "NoneType") to str
+[ERROR] 2021-11-16 06:02:14,704 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    group = Group.objects.get(name=org_name2 + '_' + i)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 58, in SignUpAdminView
+    messages.error(request, e + ' No Groups were created for this oganization. ')
+TypeError: unsupported operand type(s) for +: 'DoesNotExist' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 64, in SignUpAdminView
+    messages.success(request, 'Token generated for ' + org_name + ': ' + tk.generate_token(org_name))
+TypeError: can only concatenate str (not "NoneType") to str
+[ERROR] 2021-11-16 06:42:21,878 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 45, in SignUpAdminView
+    FormSaveandAccountCreation(form, user, org_name, sw, request, tk)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 105, in FormSaveandAccountCreation
+    messages.success(request, 'Account was created for ' + user)
+TypeError: can only concatenate str (not "CustomUser") to str
+[ERROR] 2021-11-16 06:46:05,179 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 31, in SignUpAdminView
+    user = form.save(commit=False)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 135, in save
+    user = super().save(commit=False)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/forms/models.py", line 452, in save
+    raise ValueError(
+ValueError: The CustomUser could not be created because the data didn't validate.
+[ERROR] 2021-11-16 06:49:03,659 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    AddUserToGroup(groups, form, org_name2)
+TypeError: AddUserToGroup() missing 1 required positional argument: 'form'
+[ERROR] 2021-11-16 06:50:01,032 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    AddUserToGroup(groups, form, org_name2)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 114, in AddUserToGroup
+    user = form.save(commit=False)
+AttributeError: 'str' object has no attribute 'save'
+[ERROR] 2021-11-16 19:32:55,313 django.request: Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 97, in logout_view
+    loggingReports.LogoutGeneral(request, sw)
+TypeError: LogoutGeneral() missing 1 required positional argument: 'sw'
+[ERROR] 2021-11-16 19:34:59,891 django.request: Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 97, in logout_view
+    loggingReports.LogoutGeneral(request, sw)
+TypeError: LogoutGeneral() missing 1 required positional argument: 'stopwatch'
+[ERROR] 2021-11-16 19:37:49,887 django.request: Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 98, in logout_view
+    loggingReports.LogoutGeneral(request, sw)
+TypeError: LogoutGeneral() missing 1 required positional argument: 'stopwatch'
+[ERROR] 2021-11-16 19:39:34,584 django.request: Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 98, in logout_view
+    loggingReports.LogoutGeneral(request, time.process_time() - sw)
+TypeError: LogoutGeneral() missing 1 required positional argument: 'stopwatch'
+[ERROR] 2021-11-17 20:17:58,212 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), form, True)
+TypeError: AddUserToGroup() missing 1 required positional argument: 'org_user_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    FormSaveandAccountCreation(form, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), sw, request, tk, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 112, in FormSaveandAccountCreation
+    formsdata.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 138, in save
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+[ERROR] 2021-11-17 20:21:55,623 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 33, in SignUpAdminView
+    org_pin = str(form.cleaned_data.get('Organizational_pin'))
+AttributeError: 'CustomUserCreationAdminForm' object has no attribute 'cleaned_data'
+[ERROR] 2021-11-17 20:25:36,292 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), form, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 118, in AddUserToGroup
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    FormSaveandAccountCreation(form, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), sw, request, tk)
+TypeError: FormSaveandAccountCreation() missing 1 required positional argument: 'is_admin'
+[ERROR] 2021-11-17 20:26:46,185 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 40, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), form, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 118, in AddUserToGroup
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    FormSaveandAccountCreation(form, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), sw, request, tk, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 105, in FormSaveandAccountCreation
+    formsdata.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 138, in save
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+[ERROR] 2021-11-17 20:29:25,578 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 43, in SignUpAdminView
+    FormSaveandAccountCreation(form, Org_name_CleanUP(form.cleaned_data.get('Organization_name')), sw, request, tk, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 105, in FormSaveandAccountCreation
+    formsdata.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 138, in save
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+[ERROR] 2021-11-17 20:35:06,850 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 41, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(org_name), form, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 119, in AddUserToGroup
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 44, in SignUpAdminView
+    FormSaveandAccountCreation(form, Org_name_CleanUP(org_name), sw, request, tk, True)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 106, in FormSaveandAccountCreation
+    formsdata.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/forms.py", line 138, in save
+    user.save()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: customuser_customuser.Organizatoin_user_type
