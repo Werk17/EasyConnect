@@ -449,3 +449,121 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 43: 'if'. L
 [WARNING] 2021-11-15 20:10:26,095 django.request: Not Found: /Home/
 [WARNING] 2021-11-15 13:43:48,153 django.request: Not Found: /home
 [WARNING] 2021-11-15 14:38:09,842 django.request: Not Found: /
+[WARNING] 2021-11-17 14:19:44,217 django.request: Not Found: /favicon.ico
+[WARNING] 2021-11-17 14:19:49,538 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:21:05,427 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:22:42,439 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:22:43,745 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:00,491 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:36,482 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:37,487 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:37,645 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:38,221 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:25:38,375 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:28:14,549 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:29:14,407 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:29:19,082 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:29:20,606 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:29:21,033 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:29:21,194 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:30:18,882 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:30:20,584 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:30:20,795 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:30:20,965 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:33:23,003 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:33:25,796 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:33:25,907 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:36:39,325 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:36:39,966 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:36:40,133 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:39:31,482 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:39:32,575 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:40:38,259 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:40:38,775 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:40:38,949 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:40:39,793 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 14:40:46,806 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 20:56:24,911 django.request: Not Found: /choosetype/bird.jpg
+[WARNING] 2021-11-17 20:57:06,063 django.request: Not Found: /choosetype/bird.jpg
+[WARNING] 2021-11-17 20:57:35,737 django.request: Not Found: /choosetype/bird.jpg
+[WARNING] 2021-11-17 21:26:33,212 django.request: Not Found: /home/
+[WARNING] 2021-11-17 21:26:43,812 django.request: Not Found: /Home/
+[WARNING] 2021-11-17 21:26:59,063 django.request: Not Found: /
+[WARNING] 2021-11-17 21:42:11,191 django.request: Not Found: /choosetype/static/customstyle.css
+[WARNING] 2021-11-17 21:43:29,556 django.request: Not Found: /choosetype/bird.jpg
+[ERROR] 2021-11-17 21:59:10,735 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\customuser\views.py", line 46, in SignUpAdminView
+    return render(request, 'registration/adminsignup.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 69: 'static'. Did you forget to register or load this tag?
+[ERROR] 2021-11-17 21:59:54,821 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\customuser\views.py", line 46, in SignUpAdminView
+    return render(request, 'registration/adminsignup.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 71: 'static'. Did you forget to register or load this tag?

@@ -303,3 +303,54 @@
 [INFO] 2021-11-15 14:43:27,306 customuser.views: User test8 logged in: in 176.0333 ms
 [DEBUG] 2021-11-15 14:53:02,808 asyncio: Using proactor: IocpProactor
 [DEBUG] 2021-11-15 14:53:02,995 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-17 14:19:39,481 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 14:19:39,481 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 14:19:39,481 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 14:19:40,672 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 14:19:40,672 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 14:19:40,672 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 14:19:40,735 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-17 14:19:47,169 customuser.views: User test8 logged out: in 8.0254 ms
+[INFO] 2021-11-17 14:39:29,309 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 14:39:29,309 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 14:39:29,325 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 14:39:30,672 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 14:39:30,672 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 14:39:30,672 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 14:39:30,720 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-17 14:44:12,273 customuser.views: User  logged out: in 0.0 ms
+[DEBUG] 2021-11-17 14:50:19,332 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-17 14:50:19,548 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-17 15:25:00,465 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 15:25:00,465 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 15:25:00,465 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 15:25:00,950 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 15:25:00,950 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 15:25:00,950 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 15:25:00,981 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-17 15:35:59,735 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-17 15:35:59,810 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-17 19:51:56,263 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 19:51:56,263 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 19:51:56,263 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 19:51:56,681 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 19:51:56,681 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 19:51:56,681 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 19:51:56,697 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-17 21:28:53,755 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-17 21:28:53,826 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-17 21:28:57,133 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 21:28:57,133 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 21:28:57,133 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 21:28:57,561 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 21:28:57,561 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 21:28:57,561 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 21:28:57,581 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-17 21:34:17,169 django.utils.autoreload: C:\Users\werkc\Desktop\EasyConnect\EasyConnect\urls.py changed, reloading.
+[DEBUG] 2021-11-17 21:34:17,170 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-17 21:34:17,706 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-17 21:34:17,707 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-17 21:34:17,707 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-17 21:34:17,735 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-17 22:13:41,279 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-17 22:13:41,354 asyncio: Using proactor: IocpProactor
