@@ -1734,3 +1734,27 @@
 [DEBUG] 2021-11-17 21:10:02,208 asyncio: Using selector: KqueueSelector
 [DEBUG] 2021-11-17 21:10:02,342 asyncio: Using selector: KqueueSelector
 >>>>>>> master
+[INFO] 2021-11-19 14:32:23,559 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 14:32:23,559 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 14:32:23,559 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 14:32:24,818 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 14:32:24,818 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 14:32:24,818 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 14:32:24,881 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-19 14:32:47,555 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-19 14:32:47,673 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-19 14:33:07,347 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 14:33:07,347 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 14:33:07,347 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-11-19 14:33:07,632 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-19 14:33:15,274 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 14:33:15,274 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 14:33:15,274 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 14:33:16,531 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 14:33:16,531 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 14:33:16,531 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 14:33:16,578 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-11-19 14:33:46,515 customuser.views: User riley logged in: in 224.0443 ms
+[INFO] 2021-11-19 14:37:35,173 customuser.views: User  logged out: in 24.0679 ms
+[DEBUG] 2021-11-19 14:41:46,246 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-19 14:41:46,462 asyncio: Using proactor: IocpProactor
