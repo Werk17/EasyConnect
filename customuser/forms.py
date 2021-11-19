@@ -21,7 +21,7 @@ class CustomUserCreationEUForm(UserCreationForm):
     Organizational_pin = forms.CharField(required=True)
     class Meta(UserCreationForm):
         model = get_user_model()
-        fields = ('username', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'additional_info', 'photo', 'Organizational_pin')
+        fields = ('username', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'additional_info', 'photo', 'Organizational_pin', 'Organizatoin_user_type')
         logging.info("Forms added for Custom User Creation EU Form")
         
 class CustomUserChangeForm(UserChangeForm):
