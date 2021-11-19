@@ -15,7 +15,7 @@
 
   </p>
   <p class="lead2">
-    <a class="btn btn-primary btn-md" href="{% url 'choosetype' %}" role="button">Sign Up</a>
+    <a class="btn btn-primary btn-block" href="{% url 'choosetype' %}" role="button">Sign Up</a>
   </p>
   {% else %}
   <p class="lead2"><a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u></p>
