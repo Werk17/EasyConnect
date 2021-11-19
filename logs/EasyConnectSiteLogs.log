@@ -354,3 +354,12 @@
 [INFO] 2021-11-17 21:34:17,735 django.utils.autoreload: Watching for file changes with StatReloader
 [DEBUG] 2021-11-17 22:13:41,279 asyncio: Using proactor: IocpProactor
 [DEBUG] 2021-11-17 22:13:41,354 asyncio: Using proactor: IocpProactor
+[INFO] 2021-11-19 13:57:40,323 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 13:57:40,323 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 13:57:40,323 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 13:57:41,595 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-11-19 13:57:41,611 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-11-19 13:57:41,611 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-11-19 13:57:41,677 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-11-19 14:02:28,613 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-11-19 14:02:28,804 asyncio: Using proactor: IocpProactor
