@@ -33,4 +33,5 @@ class CustomUser(AbstractUser):
     class Meta:
         ordering = ('last_name',)
     def __str__(self):
-        return f"{self.username}: {self.first_name} {self.last_name}"
+        return f"{self.username}: "
+        # {self.first_name} {self.last_name}  removed to test Username display

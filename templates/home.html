@@ -10,12 +10,12 @@
   <p class="lead1">A Message App for Business.</p>
   {% if not request.user.is_authenticated %}
   <p class="lead2">
-    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Sign in</a>
-    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Sign in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Log in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Log in</a>
 
   </p>
   <p class="lead2">
-    <a class="btn btn-primary btn-block" href="{% url 'choosetype' %}" role="button">Sign Up</a>
+    <a class="btn btn-primary btn-block" href="{% url 'choosetype' %}" role="button">Sign Up/Register</a>
   </p>
   {% else %}
   <p class="lead2"><a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u></p>
@@ -23,38 +23,47 @@
 </div>
 {% endblock header %}
 {% block main %}
-<span>Hello, {{request.user}}</span>
-<span><a href="{% url 'logout' %}">Logout</a></span>
+
+<div class="subcontent">
+  <h1>The EasyConnect Way</h1>
+  <!-- <hr> -->
+</div>
+<div class="subcontent">
+  <span>
+    <h4>Hello, {{request.user}}</h4>
+    <hr>
+  </span>
+
+  Welcome to <span style="text-decoration: underline">EasyConnect!</span> A platform
+  designed to bring users together in a safe and convenient manner.
+
+  <div class="subcontent"> If you would like to create an account for your organization and it's users, please <a
+      href="{% url 'choosetype' %}">sign up</a> using the link in the side bar.
+  </div>
+</div>
+<div class="subcontent"> <i><b>Additional information:</b></i> <span style="text-decoration: underline">Admin
+    Users</span> define the experience for the organization. <a href="{% url 'Adminsignup' %}"> Create an admin account</a> for your organization
+  to setup the necessary tools needed to use this platform. Associates of your organization should sign up as an
+  end-user to your organization.
+</div>
+<div class="subcontent">
+  <div class="quickNotes"> <i><b>Quick Notes:</b></i>
+    <li>After Admin sign up, <span style="text-decoration: underline">save the token</span> related to your
+      organization. The end-users will use this to create
+      an account linked to your organization.</li>
+  </div>
+</div>
 <br>
-<div class="subcontent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta vitae accusantium ut libero commodi qui
-  consectetur quisquam voluptatem et, dolore hic nemo ipsum, optio ipsa labore, quasi laboriosam doloribus!
-  Praesentium iste corporis maxime repellat, consequuntur provident cupiditate, ipsam, ex magnam fuga nisi cumque harum
-  optio placeat ea quia facilis dolor molestiae hic expedita impedit! Deleniti libero ab facere consequuntur.
-  Qui quisquam accusamus reprehenderit quidem dignissimos officia dolorem ab, eaque obcaecati, sapiente, odit incidunt
-  laboriosam mollitia nostrum aliquam iste laudantium. Voluptatum quo labore perspiciatis repellat magni sed, neque
-  deserunt dolor?
-  Temporibus exercitationem amet sed, eligendi perspiciatis consequuntur provident fugit cumque ex veniam quaerat nobis
-  omnis repellat at nam placeat facilis et mollitia! Error praesentium tenetur perferendis? Ipsa placeat ratione fugit.
-</div>
-<div class="subcontent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta vitae accusantium ut libero commodi qui
-  consectetur quisquam voluptatem et, dolore hic nemo ipsum, optio ipsa labore, quasi laboriosam doloribus!
-  Praesentium iste corporis maxime repellat, consequuntur provident cupiditate, ipsam, ex magnam fuga nisi cumque harum
-  optio placeat ea quia facilis dolor molestiae hic expedita impedit! Deleniti libero ab facere consequuntur.
-  Qui quisquam accusamus reprehenderit quidem dignissimos officia dolorem ab, eaque obcaecati, sapiente, odit incidunt
-  laboriosam mollitia nostrum aliquam iste laudantium. Voluptatum quo labore perspiciatis repellat magni sed, neque
-  deserunt dolor?
-  Temporibus exercitationem amet sed, eligendi perspiciatis consequuntur provident fugit cumque ex veniam quaerat nobis
-  omnis repellat at nam placeat facilis et mollitia! Error praesentium tenetur perferendis? Ipsa placeat ratione fugit.
-</div>
+<hr>
 
 {% endblock main %}
 
 {% block list %}
-<li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
+<!-- <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li> -->
 <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
 <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
-<li><a href="#"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
+<li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
 <li><a href="#"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
 <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-<li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+<!-- <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li> -->
 {% endblock list%}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,8 +19,36 @@ body {
     margin-left: 350px;
 }
 
+.subcontent h1 {
+
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    border: 15px #70679b;
+    background-color: #fff;
+    margin: 20px;
+
+}
+
+.subcontent ul {
+    padding: 25px 0 25px 0;
+}
+
+.subcontent li {
+    padding: 5px 0 5px 0;
+}
+
+
+
 .subcontent {
-    padding: 15px 0 0 15px;
+    margin-right: 250px;
+    margin-block-end: 20px;
+    padding: 25px 0 0 75px;
+}
+
+.subcontent .quickNotes {
+    background-color: #c6c2db;
+    padding: 15px;
 }
 
 
@@ -77,6 +106,25 @@ body {
     background: #4b4276;
     margin-left: 0px;
     display: inline;
+
+}
+
+.jumbotron2 {
+    background: #c6c2db;
+    margin-left: 0px;
+    display: inline;
+
+
+}
+
+.jumbotron2 .row h4 {
+    margin-right: 300px;
+    font-size: 30px;
+    padding: 15px;
+    border-style: groove;
+    border-bottom: 3px solid #4b4276;
+    border-left: 3px solid #4b4276;
+    
 }
 
 .lead1 {

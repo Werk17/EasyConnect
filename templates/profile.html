@@ -23,28 +23,64 @@
   <p class="lead2"> <a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u>
   </p>
   {% endif %}
-</div> 
+</div>
 {% endblock header %}
 
 <!-- main content block  -->
 {% block main %}
-<div class="subcontent">
-  {% if not request.user.is_authenticated %}
-  <p>Please login to view profile page Information</p>
-  {% else %}
-  <p> profile picture is <img src="{{user.photo.url}}" alt="ProfilePic" /> </p>
-  <span>Hello, {{user.username}}</span>
-  {% if user.is_superuser %}
-  <p>You are an admin</p>
-  {% endif %}
-  <p> username is {{user.username}} </p>
+<h1 style="padding-block-start: 0%;">User Profile</h1>
 
-  <p> email is {{user.email}} </p>
-  <p> first name is {{user.first_name}} </p>
-  <p> last name is {{user.last_name}} </p>
-  <p> phone number is {{user.phone_number}} </p>
-  <p> organization is {{user.Organization_name}} </p>
-  {% endif %}
+<div class="jumbotron1">
+
+  {% if not request.user.is_authenticated %}
+  <div class="subcontent">Please <a href="{% url 'login' %}">login</a> to view profile page Information</div>
+  {% else %}
+  <div class="jumbotron2">
+    <h3 style="text-transform: capitalize;">{{user.username}}</h3>
+    <img style="height: 150px;border-radius: 50%;" src="{{user.photo.url}}" alt="ProfilePic" />
+
+    {% if user.is_superuser %}
+    <!-- check type of user-->
+
+
+    <div class="row">
+      <h4><b>User Status:</b> Admin</h4>
+    </div>
+
+    {% endif %}
+    <div class="row">
+      <h4><b>Username:</b> {{user.username}}</h4>
+    </div>
+
+
+    <div class="row">
+      <h4><b>Email:</b> {{user.email}} </h4>
+    </div>
+
+
+    <div class="row">
+      <h4><b>First:</b> {{user.first_name}}</h4>
+    </div>
+
+
+    <div class="row">
+      <h4><b>Last:</b> {{user.last_name}}</h4>
+    </div>
+
+
+    <div class="row">
+      <h4><b>Phone:</b> {{user.phone_number}} </h4>
+    </div>
+
+
+    <div class="row">
+      <h4><b>Name of Organization:</b> {{user.Organization_name}}</h4>
+    </div>
+
+
+
+    {% endif %}
+  </div>
 </div> <!-- end subcontent -->
 {% endblock main %}
 
@@ -52,8 +88,7 @@
 {% block list %}
 <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
 <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
-<li><a href="#"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
+<li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
 <li><a href="#"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
 <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-<li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
 {% endblock list%}

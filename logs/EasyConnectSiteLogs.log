@@ -83,3 +83,48 @@
 [INFO] 2021-11-29 21:48:50,473 django.utils.autoreload: Watching for file changes with StatReloader
 [DEBUG] 2021-11-29 21:48:52,856 asyncio: Using selector: KqueueSelector
 [DEBUG] 2021-11-29 21:48:52,932 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-03 12:55:25,952 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 12:55:25,952 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 12:55:25,953 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 12:55:26,325 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 12:55:26,326 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 12:55:26,326 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 12:55:26,347 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-03 14:52:46,818 customuser.views: User riley logged in: in 144.0165 ms
+[INFO] 2021-12-03 16:06:47,301 customuser.views: User  logged out: in 18.136 ms
+[ERROR] 2021-12-03 18:46:42,843 customuser.views: User mikayla_snell@yahoo.com failed to log in: in 91.0072 ms
+[INFO] 2021-12-03 20:23:51,001 customuser.views: User riley logged in: in 81.039 ms
+[INFO] 2021-12-03 20:24:38,566 django.utils.autoreload: C:\Users\werkc\Desktop\EasyConnect\customuser\models.py changed, reloading.
+[DEBUG] 2021-12-03 20:24:38,575 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-03 20:24:39,234 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 20:24:39,235 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 20:24:39,235 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 20:24:39,265 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-03 20:25:28,762 django.utils.autoreload: C:\Users\werkc\Desktop\EasyConnect\customuser\models.py changed, reloading.
+[DEBUG] 2021-12-03 20:25:28,762 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-03 20:25:29,411 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 20:25:29,412 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 20:25:29,413 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 20:25:29,441 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-03 23:42:10,960 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-12-03 23:42:11,049 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-03 23:42:41,738 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 23:42:41,738 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 23:42:41,739 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-03 23:42:41,843 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-03 23:42:53,674 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 23:42:53,675 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 23:42:53,675 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-03 23:42:53,772 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-03 23:43:14,242 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 23:43:14,243 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 23:43:14,243 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 23:43:14,647 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-03 23:43:14,647 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-03 23:43:14,648 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-03 23:43:14,669 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-03 23:43:23,096 customuser.views: User  logged out: in 11.0025 ms
+[INFO] 2021-12-03 23:46:45,053 customuser.views: User riley logged in: in 91.0199 ms
+[INFO] 2021-12-03 23:47:12,939 customuser.views: User  logged out: in 12.0859 ms
+[DEBUG] 2021-12-03 23:47:22,671 asyncio: Using proactor: IocpProactor
+[DEBUG] 2021-12-03 23:47:22,744 asyncio: Using proactor: IocpProactor

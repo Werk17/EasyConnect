@@ -1378,3 +1378,52 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 831, in create_connection
     sock.connect(sa)
 ConnectionRefusedError: [Errno 61] Connection refused
+[ERROR] 2021-12-03 20:21:20,393 django.request: Internal Server Error: /Home
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\EasyConnect\views.py", line 6, in HomePageView
+    return render(request, 'home.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\defaulttags.py", line 1372, in url
+    viewname = parser.compile_filter(bits[1])
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''adminsignup' from ''adminsignup'
