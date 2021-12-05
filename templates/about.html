@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+{% block header %}
+
+<div class="jumbotron1">
+  <!-- <h1 class="display-4">EasyConnect</h1> -->
+  <a class="logo" href="{% url 'home' %}"><img src="{% static 'homepagepic.png' %}" alt="EasyConnect"></a>
+  <p class="lead1">A Message App for Business.</p>
+  {% if not request.user.is_authenticated %}
+  <p class="lead2">
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Log in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Log in</a>
+
+  </p>
+  <p class="lead2">
+    <a class="btn btn-primary btn-block" href="{% url 'choosetype' %}" role="button">Sign Up/Register</a>
+  </p>
+  {% else %}
+  <p class="lead2"><a href="{% url 'logout' %}">Logout</a> (<u>{{ user.username }})</u></p>
+  {% endif %}
+</div>
+{% endblock header %}
+{% block main %}
+
+<div class="subcontent">
+  <h1>Inspiration Behind EasyConnect</h1>
+  <!-- <hr> -->
+</div>
+<div class="subcontent">
+  <span>
+    <h4>Welcome to The Family!</h4>
+    <hr>
+  </span>
+
+  The Inspiration behind EasyConnect is the idea of a message app for businesses. With so much information being
+  exchanged, it is important to have a safe, convenient, and fluid way to communicate within your organization.
+
+  <div class="subcontent"> <b>We are a team</b> of two students from the <span style="text-decoration: underline">University of Montana</span> with a passion for the
+    field of software development. This website is our idealogiy for a message app for businesses.
+  </div>
+
+  <div class="subcontent"> <b>Each and every person</b> that uses an email address to communicate has recieved phishing emails
+    from hackers. This is a major concern for many businesses. We believe that the best way to protect your business is to
+    protect your employees. The best way to do that is to offer a safe and secure way to communicate.
+  </div>
+
+  <div class="subcontent"> <b>EasyConnect</b> gives your organization the ability to communicate within itself. It is like a help
+      desk for your employees. Upon sign up and creation, groups are created for your employees. These groups can be
+        accessed by your employees. They are help desk style, and remove the headache of having to search through
+        hundreds of emails to find the right person. Not only that, they also eliminate user error and hackers.
+  </div>
+
+  <span>
+    <hr>
+  </span>
+
+</div>
+<div class="subcontent">
+  <div class="quickNotes"> <i><b>Mission Statement:</b></i>
+    <li>We at <span style="text-decoration: underline">EasyConnect</span> pride our abilities to provide your organization with the communication tools that it needs to succeed.
+        It is our mission and hope that you will use our platform to help your organization be successful in it's endevors.</li>
+    </li>
+  </div>
+</div>
+<br>
+<hr>
+
+{% endblock main %}
+
+{% block list %}
+<li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
+<li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
+<li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
+<li><a href="{% url 'announcements' %}"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
+<li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
+<!-- <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li> -->
+{% endblock list%}

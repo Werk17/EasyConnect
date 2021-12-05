@@ -136,3 +136,7 @@ body {
 .lead2 {
     text-align: center;
 }
+
+fieldset {
+    border-color: rgb(0, 0, 0);
+}

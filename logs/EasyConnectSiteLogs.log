@@ -128,3 +128,65 @@
 [INFO] 2021-12-03 23:47:12,939 customuser.views: User  logged out: in 12.0859 ms
 [DEBUG] 2021-12-03 23:47:22,671 asyncio: Using proactor: IocpProactor
 [DEBUG] 2021-12-03 23:47:22,744 asyncio: Using proactor: IocpProactor
+[INFO] 2021-12-04 23:04:12,919 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-04 23:04:12,920 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-04 23:04:12,920 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-04 23:04:13,115 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-04 23:04:13,115 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-04 23:04:13,116 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-04 23:04:13,125 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-04 23:04:49,058 customuser.views: User  logged out: in 11.729 ms
+[INFO] 2021-12-04 23:05:13,884 customuser.views: User riley logged in: in 127.6798 ms
+[INFO] 2021-12-04 23:12:25,779 customuser.views: User  logged out: in 17.5412 ms
+[INFO] 2021-12-04 23:13:02,505 customuser.views: User riley logged in: in 119.802 ms
+[INFO] 2021-12-04 23:47:36,654 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/views.py changed, reloading.
+[DEBUG] 2021-12-04 23:47:36,655 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-04 23:47:36,883 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-04 23:47:36,884 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-04 23:47:36,884 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-04 23:47:36,894 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-04 23:47:48,203 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/urls.py changed, reloading.
+[DEBUG] 2021-12-04 23:47:48,204 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-04 23:47:48,441 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-04 23:47:48,442 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-04 23:47:48,442 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-04 23:47:48,452 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-04 23:59:27,271 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-04 23:59:27,345 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:00:01,413 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:00:01,414 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:00:01,415 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-05 00:00:01,427 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:03:47,281 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:03:47,281 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:03:47,282 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-05 00:03:47,328 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:03:55,509 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:03:55,510 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:03:55,510 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-05 00:03:55,558 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:12:48,456 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:12:48,457 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:12:48,457 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:12:48,650 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:12:48,650 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:12:48,651 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:12:48,661 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 00:23:29,933 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/config/settings.py changed, reloading.
+[DEBUG] 2021-12-05 00:23:29,934 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 00:23:30,089 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:27:21,449 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:27:21,450 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:27:21,450 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:27:21,646 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:27:21,647 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:27:21,647 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:27:21,657 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 00:31:14,340 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/config/settings.py changed, reloading.
+[DEBUG] 2021-12-05 00:31:14,341 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:31:14,575 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:31:14,575 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:31:14,576 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:31:14,586 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-05 00:37:53,108 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 00:37:53,179 asyncio: Using selector: KqueueSelector
