@@ -1676,3 +1676,25 @@ Traceback (most recent call last):
   File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/utils/module_loading.py", line 22, in import_string
     raise ImportError('Module "%s" does not define a "%s" attribute/class' % (
 ImportError: Module "announcements.context_processors" does not define a "announcements" attribute/class
+[WARNING] 2021-12-05 06:42:39,701 django.request: Not Found: /accounts/login/
+[WARNING] 2021-12-05 07:00:17,347 django.request: Not Found: /accounts/login/
+[ERROR] 2021-12-05 07:03:28,136 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 66, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(request.POST.get('Organization_name')), form, True)
+TypeError: AddUserToGroup() missing 1 required positional argument: 'org_user_type'
+[WARNING] 2021-12-05 07:09:03,043 django.request: Not Found: /admin/logs
+[WARNING] 2021-12-05 19:05:50,735 django.request: Not Found: /admin/customuser/customuser/add/
+[WARNING] 2021-12-05 19:14:48,375 django.request: Not Found: /H
+[WARNING] 2021-12-05 19:15:16,102 django.request: Not Found: /password_change/static/customstyle.css
+[WARNING] 2021-12-05 19:15:32,136 django.request: Not Found: /password_reset/done/static/customstyle.css
+[WARNING] 2021-12-05 19:26:31,394 django.request: Not Found: /password_change/static/customstyle.css
+[WARNING] 2021-12-05 19:26:59,304 django.request: Not Found: /password_change/static/customstyle.css
+[WARNING] 2021-12-05 19:27:44,134 django.request: Not Found: /password_reset/done/static/customstyle.css
+[WARNING] 2021-12-05 19:27:44,902 django.request: Not Found: /password_reset/done/static/customstyle.css
+[WARNING] 2021-12-05 19:28:00,247 django.request: Not Found: /home
+[WARNING] 2021-12-05 19:32:21,007 django.request: Not Found: /password_change/static/customstyle.css
