@@ -190,3 +190,365 @@
 [INFO] 2021-12-05 00:31:14,586 django.utils.autoreload: Watching for file changes with StatReloader
 [DEBUG] 2021-12-05 00:37:53,108 asyncio: Using selector: KqueueSelector
 [DEBUG] 2021-12-05 00:37:53,179 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 00:41:06,106 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:41:06,107 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:41:06,107 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:41:09,375 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:41:09,375 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:41:09,375 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:41:09,567 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 00:41:09,567 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 00:41:09,568 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 00:41:09,578 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-05 00:42:53,768 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 00:42:53,840 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 04:11:32,824 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 04:11:32,825 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 04:11:32,825 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 04:11:33,017 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 04:11:33,017 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 04:11:33,017 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 04:11:33,027 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-05 05:24:05,080 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 05:24:05,153 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 05:24:11,475 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 05:24:11,476 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 05:24:11,476 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 05:24:11,670 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 05:24:11,671 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 05:24:11,671 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 05:24:11,682 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 05:29:37,674 customuser.views: User  logged out: in 13.6008 ms
+[INFO] 2021-12-05 06:20:48,708 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:20:48,709 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:20:48,950 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:20:48,951 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:20:48,951 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:20:48,963 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:21:32,616 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:21:32,617 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:21:32,886 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:21:32,886 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:21:32,886 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:21:32,898 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:30:08,631 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:30:08,631 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:30:08,876 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:30:08,876 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:30:08,877 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:30:08,888 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:32:20,835 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:32:20,836 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:32:21,074 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:32:21,075 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:32:21,075 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:32:21,085 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:32:31,710 customuser.views: User  logged out: in 22.0718 ms
+[INFO] 2021-12-05 06:32:57,085 customuser.TokenLoginHandler: User not found in file (testingpermissions) at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,085 customuser.TokenLoginHandler: User not found in file (testingpermissions) at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,086 customuser.TokenLoginHandler: Wrote tokens to file in 0.1619 ms, at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,086 customuser.TokenLoginHandler: Generated token for user: testingPermissions in 0.952 ms, at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,206 customuser.TokenLoginHandler: Read token from file for user: testingpermissions, at Sun Dec  5 06:32:57 2021 in 0.0792 ms
+[INFO] 2021-12-05 06:32:57,206 customuser.TokenLoginHandler: Found token for user: testingpermissions in 0.181 ms, at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,206 customuser.TokenLoginHandler: Read token from file for user: testingpermissions, at Sun Dec  5 06:32:57 2021 in 0.035 ms
+[INFO] 2021-12-05 06:32:57,206 customuser.TokenLoginHandler: Found token for user: testingpermissions in 0.0801 ms, at Sun Dec  5 06:32:57 2021
+[INFO] 2021-12-05 06:32:57,206 customuser.views: Token generated for testingpermissions: _nZ5CwjqCI0VbfYmGC2NLA in 134.8648 ms
+[INFO] 2021-12-05 06:33:07,474 customuser.views: User testingPermissions logged in: in 121.233 ms
+[DEBUG] 2021-12-05 06:37:30,176 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 06:37:30,250 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:39:34,944 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:39:34,944 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:39:34,945 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:39:35,138 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:39:35,139 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:39:35,139 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:39:35,149 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:42:26,622 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:42:26,623 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:42:26,867 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:42:26,867 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:42:26,868 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:42:26,878 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:42:36,765 customuser.views: User  logged out: in 23.1259 ms
+[INFO] 2021-12-05 06:47:31,543 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:47:31,544 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:47:31,801 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:47:31,801 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:47:31,801 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:47:31,811 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:47:44,178 customuser.views: User  logged out: in 19.1302 ms
+[INFO] 2021-12-05 06:48:10,425 customuser.TokenLoginHandler: User not found in file (willthiscreate) at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,425 customuser.TokenLoginHandler: User not found in file (willthiscreate) at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,426 customuser.TokenLoginHandler: Wrote tokens to file in 0.0951 ms, at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,427 customuser.TokenLoginHandler: Generated token for user: WillThisCreate in 1.4179 ms, at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,544 customuser.TokenLoginHandler: Read token from file for user: willthiscreate, at Sun Dec  5 06:48:10 2021 in 0.077 ms
+[INFO] 2021-12-05 06:48:10,544 customuser.TokenLoginHandler: Found token for user: willthiscreate in 0.1781 ms, at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,544 customuser.TokenLoginHandler: Read token from file for user: willthiscreate, at Sun Dec  5 06:48:10 2021 in 0.0339 ms
+[INFO] 2021-12-05 06:48:10,544 customuser.TokenLoginHandler: Found token for user: willthiscreate in 0.077 ms, at Sun Dec  5 06:48:10 2021
+[INFO] 2021-12-05 06:48:10,544 customuser.views: Token generated for willthiscreate: _boNGgloYLbxcF9jCx-JYA in 132.9091 ms
+[DEBUG] 2021-12-05 06:50:20,258 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 06:50:20,333 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:51:13,364 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:51:13,364 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:51:13,365 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-05 06:51:13,410 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:52:22,586 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:52:22,586 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:52:22,586 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:52:22,778 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:52:22,778 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:52:22,778 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:52:22,788 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:52:44,459 customuser.views: User  logged out: in 19.4678 ms
+[INFO] 2021-12-05 06:56:49,597 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:56:49,598 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:56:49,830 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:56:49,830 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:56:49,830 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:56:49,840 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:57:07,204 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/urls.py changed, reloading.
+[DEBUG] 2021-12-05 06:57:07,205 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:57:07,443 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:57:07,443 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:57:07,443 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:57:07,454 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:57:20,723 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/urls.py changed, reloading.
+[DEBUG] 2021-12-05 06:57:20,724 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:57:20,968 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:57:20,968 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:57:20,968 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:57:20,978 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:57:42,624 customuser.TokenLoginHandler: User not found in file (aldksjfhadskjh) at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,625 customuser.TokenLoginHandler: User not found in file (aldksjfhadskjh) at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,626 customuser.TokenLoginHandler: Wrote tokens to file in 0.0832 ms, at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,627 customuser.TokenLoginHandler: Generated token for user: aldksjfhadskjh in 1.3201 ms, at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,740 customuser.TokenLoginHandler: Read token from file for user: aldksjfhadskjh, at Sun Dec  5 06:57:42 2021 in 0.0811 ms
+[INFO] 2021-12-05 06:57:42,740 customuser.TokenLoginHandler: Found token for user: aldksjfhadskjh in 0.1869 ms, at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,741 customuser.TokenLoginHandler: Read token from file for user: aldksjfhadskjh, at Sun Dec  5 06:57:42 2021 in 0.035 ms
+[INFO] 2021-12-05 06:57:42,741 customuser.TokenLoginHandler: Found token for user: aldksjfhadskjh in 0.0792 ms, at Sun Dec  5 06:57:42 2021
+[INFO] 2021-12-05 06:57:42,741 customuser.views: Token generated for aldksjfhadskjh: PvyvmzRJxvaVlKypjWvvzA in 129.1389 ms
+[INFO] 2021-12-05 06:59:38,023 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 06:59:38,024 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 06:59:38,265 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 06:59:38,265 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 06:59:38,266 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 06:59:38,276 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 06:59:46,293 customuser.views: User  logged out: in 16.063 ms
+[INFO] 2021-12-05 07:00:10,802 customuser.TokenLoginHandler: User not found in file (testinggroups) at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,802 customuser.TokenLoginHandler: User not found in file (testinggroups) at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,802 customuser.TokenLoginHandler: Wrote tokens to file in 0.0331 ms, at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,802 customuser.TokenLoginHandler: Generated token for user: TestingGroups in 0.2754 ms, at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,912 customuser.TokenLoginHandler: Read token from file for user: testinggroups, at Sun Dec  5 07:00:10 2021 in 0.083 ms
+[INFO] 2021-12-05 07:00:10,912 customuser.TokenLoginHandler: Found token for user: testinggroups in 0.1869 ms, at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,912 customuser.TokenLoginHandler: Read token from file for user: testinggroups, at Sun Dec  5 07:00:10 2021 in 0.037 ms
+[INFO] 2021-12-05 07:00:10,912 customuser.TokenLoginHandler: Found token for user: testinggroups in 0.0811 ms, at Sun Dec  5 07:00:10 2021
+[INFO] 2021-12-05 07:00:10,912 customuser.views: Token generated for testinggroups: fXQ1k2SbqKqRMeSCGoAVWg in 126.6959 ms
+[INFO] 2021-12-05 07:02:53,263 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 07:02:53,264 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:02:53,513 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:02:53,514 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:02:53,514 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:02:53,525 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:03:03,286 customuser.views: User  logged out: in 20.3819 ms
+[INFO] 2021-12-05 07:03:28,110 customuser.TokenLoginHandler: User not found in file (cerategroupcerategroup) at Sun Dec  5 07:03:28 2021
+[INFO] 2021-12-05 07:03:28,111 customuser.TokenLoginHandler: User not found in file (cerategroupcerategroup) at Sun Dec  5 07:03:28 2021
+[INFO] 2021-12-05 07:03:28,112 customuser.TokenLoginHandler: Wrote tokens to file in 0.1109 ms, at Sun Dec  5 07:03:28 2021
+[INFO] 2021-12-05 07:03:28,112 customuser.TokenLoginHandler: Generated token for user: CerateGroupCerateGroup in 1.5488 ms, at Sun Dec  5 07:03:28 2021
+[INFO] 2021-12-05 07:05:52,220 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 07:05:52,220 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:05:52,451 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:05:52,452 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:05:52,452 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:05:52,462 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:06:26,014 customuser.TokenLoginHandler: Read token from file for user: cerategroupcerategroup, at Sun Dec  5 07:06:26 2021 in 0.674 ms
+[ERROR] 2021-12-05 07:06:26,014 customuser.views: Token already exists for CerateGroupCerateGroup found in 22.2821 ms
+[INFO] 2021-12-05 07:06:49,439 customuser.TokenLoginHandler: User not found in file (cerategroupcerategroup1) at Sun Dec  5 07:06:49 2021
+[INFO] 2021-12-05 07:06:49,440 customuser.TokenLoginHandler: User not found in file (cerategroupcerategroup1) at Sun Dec  5 07:06:49 2021
+[INFO] 2021-12-05 07:06:49,440 customuser.TokenLoginHandler: Wrote tokens to file in 0.1202 ms, at Sun Dec  5 07:06:49 2021
+[INFO] 2021-12-05 07:06:49,440 customuser.TokenLoginHandler: Generated token for user: CerateGroupCerateGroup1 in 0.8459 ms, at Sun Dec  5 07:06:49 2021
+[INFO] 2021-12-05 07:06:49,440 customuser.views: Adding user to group IT in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:49,564 customuser.views: Adding user to group GENERAL in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:49,672 customuser.views: Adding user to group HR in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:49,777 customuser.views: Adding user to group SECURITY in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:49,883 customuser.views: Adding user to group MARKETING in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:49,988 customuser.views: Adding user to group FINANCE in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:50,095 customuser.views: Adding user to group R&D in cerategroupcerategroup1
+[INFO] 2021-12-05 07:06:50,312 customuser.TokenLoginHandler: Read token from file for user: cerategroupcerategroup1, at Sun Dec  5 07:06:50 2021 in 0.088 ms
+[INFO] 2021-12-05 07:06:50,312 customuser.TokenLoginHandler: Found token for user: cerategroupcerategroup1 in 0.1888 ms, at Sun Dec  5 07:06:50 2021
+[INFO] 2021-12-05 07:06:50,312 customuser.TokenLoginHandler: Read token from file for user: cerategroupcerategroup1, at Sun Dec  5 07:06:50 2021 in 0.036 ms
+[INFO] 2021-12-05 07:06:50,312 customuser.TokenLoginHandler: Found token for user: cerategroupcerategroup1 in 0.0839 ms, at Sun Dec  5 07:06:50 2021
+[INFO] 2021-12-05 07:06:50,312 customuser.views: Token generated for cerategroupcerategroup1: hR3s2qEKJwlOHcs4j1lJZw in 878.6721 ms
+[INFO] 2021-12-05 07:16:17,271 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/forms.py changed, reloading.
+[DEBUG] 2021-12-05 07:16:17,272 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:16:17,513 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:16:17,514 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:16:17,514 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:16:17,524 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:27:35,697 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/forms.py changed, reloading.
+[DEBUG] 2021-12-05 07:27:35,697 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:27:35,948 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:27:35,948 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:27:35,949 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:27:35,959 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:33:56,729 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 07:33:56,730 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:33:56,984 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:33:56,984 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:33:56,985 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:33:56,997 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:34:58,118 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 07:34:58,119 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 07:34:58,357 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 07:34:58,358 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 07:34:58,358 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 07:34:58,368 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 07:35:11,251 customuser.views: User  logged out: in 21.2851 ms
+[INFO] 2021-12-05 07:35:38,031 customuser.TokenLoginHandler: User not found in file (googlere) at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,031 customuser.TokenLoginHandler: User not found in file (googlere) at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,032 customuser.TokenLoginHandler: Wrote tokens to file in 0.0739 ms, at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,032 customuser.TokenLoginHandler: Generated token for user: googlere in 0.649 ms, at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,032 customuser.views: Adding user to group IT in googlere
+[INFO] 2021-12-05 07:35:38,150 customuser.views: Adding user to group GENERAL in googlere
+[INFO] 2021-12-05 07:35:38,257 customuser.views: Adding user to group HR in googlere
+[INFO] 2021-12-05 07:35:38,363 customuser.views: Adding user to group SECURITY in googlere
+[INFO] 2021-12-05 07:35:38,469 customuser.views: Adding user to group MARKETING in googlere
+[INFO] 2021-12-05 07:35:38,574 customuser.views: Adding user to group FINANCE in googlere
+[INFO] 2021-12-05 07:35:38,680 customuser.views: Adding user to group R&D in googlere
+[INFO] 2021-12-05 07:35:38,898 customuser.TokenLoginHandler: Read token from file for user: googlere, at Sun Dec  5 07:35:38 2021 in 0.0918 ms
+[INFO] 2021-12-05 07:35:38,898 customuser.TokenLoginHandler: Found token for user: googlere in 0.1969 ms, at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,898 customuser.TokenLoginHandler: Read token from file for user: googlere, at Sun Dec  5 07:35:38 2021 in 0.0377 ms
+[INFO] 2021-12-05 07:35:38,898 customuser.TokenLoginHandler: Found token for user: googlere in 0.0858 ms, at Sun Dec  5 07:35:38 2021
+[INFO] 2021-12-05 07:35:38,898 customuser.views: Token generated for googlere: qLqkGjocJEjfMlgsBtO7qQ in 882.899 ms
+[INFO] 2021-12-05 07:35:46,176 customuser.views: User riley logged in: in 123.224 ms
+[INFO] 2021-12-05 07:36:50,894 customuser.views: User  logged out: in 20.2549 ms
+[INFO] 2021-12-05 07:36:55,209 customuser.views: User googlere logged in: in 128.1679 ms
+[INFO] 2021-12-05 18:51:31,700 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/forms.py changed, reloading.
+[DEBUG] 2021-12-05 18:51:31,701 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 18:51:31,937 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 18:51:31,938 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 18:51:31,938 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 18:51:31,948 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:04:34,607 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 19:04:34,608 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:04:34,880 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:04:34,881 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:04:34,881 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:04:34,893 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:04:46,003 customuser.views: User  logged out: in 20.51 ms
+[INFO] 2021-12-05 19:05:11,208 customuser.TokenLoginHandler: User not found in file (permissionstest) at Sun Dec  5 19:05:11 2021
+[INFO] 2021-12-05 19:05:11,209 customuser.TokenLoginHandler: User not found in file (permissionstest) at Sun Dec  5 19:05:11 2021
+[INFO] 2021-12-05 19:05:11,209 customuser.TokenLoginHandler: Wrote tokens to file in 0.073 ms, at Sun Dec  5 19:05:11 2021
+[INFO] 2021-12-05 19:05:11,210 customuser.TokenLoginHandler: Generated token for user: Permissionstest in 1.24 ms, at Sun Dec  5 19:05:11 2021
+[INFO] 2021-12-05 19:05:11,210 customuser.views: Adding user to group IT in permissionstest
+[INFO] 2021-12-05 19:05:11,332 customuser.views: Adding user to group GENERAL in permissionstest
+[INFO] 2021-12-05 19:05:11,437 customuser.views: Adding user to group HR in permissionstest
+[INFO] 2021-12-05 19:05:11,543 customuser.views: Adding user to group SECURITY in permissionstest
+[INFO] 2021-12-05 19:05:11,648 customuser.views: Adding user to group MARKETING in permissionstest
+[INFO] 2021-12-05 19:05:11,752 customuser.views: Adding user to group FINANCE in permissionstest
+[INFO] 2021-12-05 19:05:11,859 customuser.views: Adding user to group R&D in permissionstest
+[INFO] 2021-12-05 19:05:12,069 customuser.TokenLoginHandler: Read token from file for user: permissionstest, at Sun Dec  5 19:05:12 2021 in 0.083 ms
+[INFO] 2021-12-05 19:05:12,069 customuser.TokenLoginHandler: Found token for user: permissionstest in 0.181 ms, at Sun Dec  5 19:05:12 2021
+[INFO] 2021-12-05 19:05:12,070 customuser.TokenLoginHandler: Read token from file for user: permissionstest, at Sun Dec  5 19:05:12 2021 in 0.0381 ms
+[INFO] 2021-12-05 19:05:12,070 customuser.TokenLoginHandler: Found token for user: permissionstest in 0.1001 ms, at Sun Dec  5 19:05:12 2021
+[INFO] 2021-12-05 19:05:12,070 customuser.views: Token generated for permissionstest: EwkzZ-pPScszzCC79KXZow in 874.3601 ms
+[INFO] 2021-12-05 19:06:26,078 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 19:06:26,079 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:06:26,350 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:06:26,351 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:06:26,351 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:06:26,362 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:06:40,124 customuser.views: User  logged out: in 21.0459 ms
+[INFO] 2021-12-05 19:07:00,456 customuser.TokenLoginHandler: User not found in file (permissionstest1) at Sun Dec  5 19:07:00 2021
+[INFO] 2021-12-05 19:07:00,456 customuser.TokenLoginHandler: User not found in file (permissionstest1) at Sun Dec  5 19:07:00 2021
+[INFO] 2021-12-05 19:07:00,456 customuser.TokenLoginHandler: Wrote tokens to file in 0.0892 ms, at Sun Dec  5 19:07:00 2021
+[INFO] 2021-12-05 19:07:00,456 customuser.TokenLoginHandler: Generated token for user: Permissionstest1 in 0.6571 ms, at Sun Dec  5 19:07:00 2021
+[INFO] 2021-12-05 19:07:00,457 customuser.views: Adding user to group IT in permissionstest1
+[INFO] 2021-12-05 19:07:00,569 customuser.views: Adding user to group GENERAL in permissionstest1
+[INFO] 2021-12-05 19:07:00,676 customuser.views: Adding user to group HR in permissionstest1
+[INFO] 2021-12-05 19:07:00,782 customuser.views: Adding user to group SECURITY in permissionstest1
+[INFO] 2021-12-05 19:07:00,888 customuser.views: Adding user to group MARKETING in permissionstest1
+[INFO] 2021-12-05 19:07:00,993 customuser.views: Adding user to group FINANCE in permissionstest1
+[INFO] 2021-12-05 19:07:01,099 customuser.views: Adding user to group R&D in permissionstest1
+[INFO] 2021-12-05 19:07:01,320 customuser.TokenLoginHandler: Read token from file for user: permissionstest1, at Sun Dec  5 19:07:01 2021 in 0.0823 ms
+[INFO] 2021-12-05 19:07:01,320 customuser.TokenLoginHandler: Found token for user: permissionstest1 in 0.1872 ms, at Sun Dec  5 19:07:01 2021
+[INFO] 2021-12-05 19:07:01,320 customuser.TokenLoginHandler: Read token from file for user: permissionstest1, at Sun Dec  5 19:07:01 2021 in 0.035 ms
+[INFO] 2021-12-05 19:07:01,320 customuser.TokenLoginHandler: Found token for user: permissionstest1 in 0.0818 ms, at Sun Dec  5 19:07:01 2021
+[INFO] 2021-12-05 19:07:01,320 customuser.views: Token generated for permissionstest1: Cryny7IAsrpKp6U73uFbrw in 878.7801 ms
+[INFO] 2021-12-05 19:07:10,119 customuser.views: User Permissionstest1 logged in: in 120.1332 ms
+[INFO] 2021-12-05 19:09:19,722 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 19:09:19,723 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:09:19,978 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:09:19,978 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:09:19,978 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:09:19,989 django.utils.autoreload: Watching for file changes with StatReloader
+[DEBUG] 2021-12-05 19:11:53,665 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 19:11:53,737 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:11:55,403 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:11:55,404 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:11:55,404 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:11:55,601 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:11:55,601 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:11:55,602 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:11:55,612 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:12:25,913 customuser.TokenLoginHandler: User not found in file (adminaccountfinal) at Sun Dec  5 19:12:25 2021
+[INFO] 2021-12-05 19:12:25,913 customuser.TokenLoginHandler: User not found in file (adminaccountfinal) at Sun Dec  5 19:12:25 2021
+[INFO] 2021-12-05 19:12:25,914 customuser.TokenLoginHandler: Wrote tokens to file in 0.0901 ms, at Sun Dec  5 19:12:25 2021
+[INFO] 2021-12-05 19:12:25,915 customuser.TokenLoginHandler: Generated token for user: AdminAccountFinal in 1.4439 ms, at Sun Dec  5 19:12:25 2021
+[INFO] 2021-12-05 19:12:25,915 customuser.views: Adding user to group IT in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,029 customuser.views: Adding user to group GENERAL in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,137 customuser.views: Adding user to group HR in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,242 customuser.views: Adding user to group SECURITY in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,347 customuser.views: Adding user to group MARKETING in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,453 customuser.views: Adding user to group FINANCE in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,559 customuser.views: Adding user to group R&D in adminaccountfinal
+[INFO] 2021-12-05 19:12:26,778 customuser.TokenLoginHandler: Read token from file for user: adminaccountfinal, at Sun Dec  5 19:12:26 2021 in 0.092 ms
+[INFO] 2021-12-05 19:12:26,778 customuser.TokenLoginHandler: Found token for user: adminaccountfinal in 0.2072 ms, at Sun Dec  5 19:12:26 2021
+[INFO] 2021-12-05 19:12:26,778 customuser.TokenLoginHandler: Read token from file for user: adminaccountfinal, at Sun Dec  5 19:12:26 2021 in 0.0381 ms
+[INFO] 2021-12-05 19:12:26,778 customuser.TokenLoginHandler: Found token for user: adminaccountfinal in 0.0849 ms, at Sun Dec  5 19:12:26 2021
+[INFO] 2021-12-05 19:12:26,778 customuser.views: Token generated for adminaccountfinal: sVr24qXimUlPNSHpwcZAQw in 881.3291 ms
+[INFO] 2021-12-05 19:13:16,821 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/urls.py changed, reloading.
+[DEBUG] 2021-12-05 19:13:16,822 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:13:17,076 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:13:17,077 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:13:17,077 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:13:17,089 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:13:43,553 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/views.py changed, reloading.
+[DEBUG] 2021-12-05 19:13:43,555 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:13:43,786 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:13:43,786 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:13:43,787 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:13:43,797 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:13:58,803 customuser.views: User  logged out: in 20.3841 ms
+[INFO] 2021-12-05 19:14:22,785 customuser.TokenLoginHandler: User not found in file (adminaccountfinalcreation) at Sun Dec  5 19:14:22 2021
+[INFO] 2021-12-05 19:14:22,786 customuser.TokenLoginHandler: User not found in file (adminaccountfinalcreation) at Sun Dec  5 19:14:22 2021
+[INFO] 2021-12-05 19:14:22,786 customuser.TokenLoginHandler: Wrote tokens to file in 0.0918 ms, at Sun Dec  5 19:14:22 2021
+[INFO] 2021-12-05 19:14:22,786 customuser.TokenLoginHandler: Generated token for user: AdminAccountFinalCreation in 1.029 ms, at Sun Dec  5 19:14:22 2021
+[INFO] 2021-12-05 19:14:22,787 customuser.views: Adding user to group IT in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:22,908 customuser.views: Adding user to group GENERAL in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,015 customuser.views: Adding user to group HR in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,122 customuser.views: Adding user to group SECURITY in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,230 customuser.views: Adding user to group MARKETING in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,337 customuser.views: Adding user to group FINANCE in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,448 customuser.views: Adding user to group R&D in adminaccountfinalcreation
+[INFO] 2021-12-05 19:14:23,670 customuser.TokenLoginHandler: Read token from file for user: adminaccountfinalcreation, at Sun Dec  5 19:14:23 2021 in 0.088 ms
+[INFO] 2021-12-05 19:14:23,670 customuser.TokenLoginHandler: Found token for user: adminaccountfinalcreation in 0.1972 ms, at Sun Dec  5 19:14:23 2021
+[INFO] 2021-12-05 19:14:23,670 customuser.TokenLoginHandler: Read token from file for user: adminaccountfinalcreation, at Sun Dec  5 19:14:23 2021 in 0.0329 ms
+[INFO] 2021-12-05 19:14:23,671 customuser.TokenLoginHandler: Found token for user: adminaccountfinalcreation in 0.0801 ms, at Sun Dec  5 19:14:23 2021
+[INFO] 2021-12-05 19:14:23,671 customuser.views: Token generated for adminaccountfinalcreation: rX5vfsrK4q3pzMInd153HQ in 901.577 ms
+[INFO] 2021-12-05 19:14:43,905 customuser.views: User AdminAccountFinalCreation logged in: in 119.55 ms
+[INFO] 2021-12-05 19:20:59,258 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/urls.py changed, reloading.
+[DEBUG] 2021-12-05 19:20:59,258 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:20:59,485 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:20:59,486 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:20:59,486 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:20:59,498 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:21:49,313 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/customuser/urls.py changed, reloading.
+[DEBUG] 2021-12-05 19:21:49,313 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-05 19:21:49,536 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-05 19:21:49,537 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-05 19:21:49,537 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-05 19:21:49,548 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-05 19:28:10,696 customuser.views: User riley logged in: in 125.7851 ms
+[INFO] 2021-12-05 19:32:39,695 customuser.views: User  logged out: in 19.0489 ms
+[DEBUG] 2021-12-05 19:34:10,719 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-05 19:34:10,795 asyncio: Using selector: KqueueSelector

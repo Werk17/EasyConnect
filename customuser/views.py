@@ -10,7 +10,7 @@ import time
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm, UserModel
 from django.contrib.auth import login, authenticate, logout
-from django.contrib.auth.models import Group, GroupManager, PermissionsMixin 
+from django.contrib.auth.models import Group, Permission, User
 from .forms import CustomUserChangeForm, CustomUserCreationAdminForm, CustomUserCreationEUForm
 
 from urllib.parse import urlparse, urlunparse
@@ -21,7 +21,7 @@ from django.contrib.auth import (
     REDIRECT_FIELD_NAME, get_user_model, login as auth_login,
     logout as auth_logout, update_session_auth_hash,
 )
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required, permission_required
 from django.contrib.auth.forms import (
     AuthenticationForm, PasswordChangeForm, PasswordResetForm, SetPasswordForm,
 )
@@ -41,14 +41,12 @@ from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.debug import sensitive_post_parameters
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
+from django.contrib.auth.decorators import permission_required
 
 
 logger = logging.getLogger(__name__)
 
 #write to log file
-
-
-# Create your views here.
 def SignUpAdminView(request):
     sw = time.time()
     form = CustomUserCreationAdminForm
@@ -66,7 +64,7 @@ def SignUpAdminView(request):
                 tk.generate_token(form.cleaned_data.get('Organization_name'))
                 
                 try:
-                    AddUserToGroup(groups, Org_name_CleanUP(request.POST.get('Organization_name')), form, True)
+                    AddUserToGroup(groups, Org_name_CleanUP(request.POST.get('Organization_name')), form, True, "")
 
                 finally:
                     FormSaveandAccountCreation(form, Org_name_CleanUP(request.POST.get('Organization_name')), sw, request, tk, True)
@@ -138,6 +136,8 @@ def logout_view(request):
 #function to save the form and create the account
 def FormSaveandAccountCreation(formsdata, org_name, sw, request, tk, is_admin):
     if is_admin == True:
+        formsdata.instance.is_staff = True
+        formsdata.instance.user_permissions.add(Permission.objects.get(name='Can add group'))
         formsdata.save()
         username = formsdata.cleaned_data.get('username')
         messages.success(request, 'Account was created for ' + username)
@@ -154,6 +154,7 @@ def FormSaveandAccountCreation(formsdata, org_name, sw, request, tk, is_admin):
 def AddUserToGroup(groupsdict, org_nameuser, formsdata, is_admin, org_user_type):
     if is_admin == True:
         for i in groupsdict:
+            logger.info('Adding user to group ' + i + ' in ' + org_nameuser)
             user = formsdata.save(commit=False)
             user.save()
             group = Group.objects.create(name=org_nameuser + '_' + i)

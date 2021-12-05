@@ -31,6 +31,7 @@
 <br>
 <hr>
 <h1 style="padding-block-start: 0%;">User Profile</h1>
+<hr>
 
 <div class="jumbotron1">
 
@@ -84,6 +85,11 @@
 
     <div class="row">
       <h4><b>Name of Organization:</b> {{user.Organization_name}}</h4>
+    </div>
+    <br>
+
+    <div class="row">
+      <h4><b>Password:</b><a href="{% url 'password_change' %}"> Change Password</a></h4>
     </div>
     <br>
 

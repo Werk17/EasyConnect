@@ -1513,3 +1513,12 @@ Traceback (most recent call last):
   File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/utils/module_loading.py", line 22, in import_string
     raise ImportError('Module "%s" does not define a "%s" attribute/class' % (
 ImportError: Module "announcements.context_processors" does not define a "announcements" attribute/class
+[ERROR] 2021-12-05 07:03:28,136 django.request: Internal Server Error: /adminsignup/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/customuser/views.py", line 66, in SignUpAdminView
+    AddUserToGroup(groups, Org_name_CleanUP(request.POST.get('Organization_name')), form, True)
+TypeError: AddUserToGroup() missing 1 required positional argument: 'org_user_type'
