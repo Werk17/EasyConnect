@@ -1698,3 +1698,664 @@ TypeError: AddUserToGroup() missing 1 required positional argument: 'org_user_ty
 [WARNING] 2021-12-05 19:27:44,902 django.request: Not Found: /password_reset/done/static/customstyle.css
 [WARNING] 2021-12-05 19:28:00,247 django.request: Not Found: /home
 [WARNING] 2021-12-05 19:32:21,007 django.request: Not Found: /password_change/static/customstyle.css
+[WARNING] 2021-12-05 19:37:57,966 django.request: Not Found: /password_change/static/customstyle.css
+[WARNING] 2021-12-05 21:02:29,547 django.request: Not Found: /chat/example
+[WARNING] 2021-12-05 21:03:39,819 django.request: Not Found: /chat/example/
+[WARNING] 2021-12-05 21:04:01,743 django.request: Not Found: /chat/example/
+[DEBUG] 2021-12-05 21:49:06,790 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 21:53:23,121 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:10:02,914 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:13:35,568 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:13:58,591 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:14:50,664 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:15:12,759 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:15:28,829 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:16:14,822 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:19:26,382 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:21:23,812 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:23:18,368 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:23:48,906 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:26:24,541 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:28:37,650 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:29:20,058 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:30:35,716 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:31:22,557 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:31:44,787 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:36:12,725 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 22:36:30,644 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:00:24,409 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:10:58,849 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:13:57,078 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:17:12,206 django.request: Not Found: /chat//
+[DEBUG] 2021-12-05 23:19:57,453 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:22:01,263 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:22:08,631 django.request: Not Found: /chat//
+[DEBUG] 2021-12-05 23:26:45,916 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:26:53,345 django.request: Not Found: /chat//
+[WARNING] 2021-12-05 23:26:56,482 django.request: Not Found: /chat//
+[DEBUG] 2021-12-05 23:38:47,797 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:38:57,382 django.request: Not Found: /chat//
+[DEBUG] 2021-12-05 23:44:38,926 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:44:46,535 django.request: Not Found: /chat//
+[WARNING] 2021-12-05 23:44:54,217 django.request: Not Found: /chat/EasyConnect/static/chatstyle.css
+[WARNING] 2021-12-05 23:44:54,225 django.request: Not Found: /chat/EasyConnect/static/chatmain.css
+[WARNING] 2021-12-05 23:44:54,232 django.request: Not Found: /chat/EasyConnect/static/reconnecting-websocket.js
+[WARNING] 2021-12-05 23:45:42,381 django.request: Not Found: /chat/EasyConnect/static/chatstyle.css
+[DEBUG] 2021-12-05 23:45:54,964 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-05 23:46:04,578 django.request: Not Found: /chat/EasyConnect/static/chatstyle.css
+[DEBUG] 2021-12-05 23:48:31,452 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:52:25,762 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:52:28,454 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-05 23:53:08,687 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[ERROR] 2021-12-06 00:17:07,346 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: "'url"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 74: ''url'. Did you forget to register or load this tag?
+[DEBUG] 2021-12-06 00:19:34,841 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[ERROR] 2021-12-06 00:19:51,355 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'chat' not found. 'chat' is not a valid view function or pattern name.
+[ERROR] 2021-12-06 00:20:26,919 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[DEBUG] 2021-12-06 00:22:33,736 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[ERROR] 2021-12-06 00:23:00,682 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'chat/' not found. 'chat/' is not a valid view function or pattern name.
+[ERROR] 2021-12-06 00:23:55,225 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'chat' not found. 'chat' is not a valid view function or pattern name.
+[ERROR] 2021-12-06 00:24:04,111 django.request: Internal Server Error: /chat/example/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'room' with no arguments not found. 1 pattern(s) tried: ['chat/(?P<room_name>[^/]+)/$']
+[ERROR] 2021-12-06 00:24:47,357 django.request: Internal Server Error: /chat/easyy/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'chat' not found. 'chat' is not a valid view function or pattern name.
+[ERROR] 2021-12-06 00:42:41,450 django.request: Internal Server Error: /chat/admintest/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'chat' not found. 'chat' is not a valid view function or pattern name.
+[WARNING] 2021-12-06 00:45:34,940 django.request: Not Found: /b
+[DEBUG] 2021-12-06 00:49:09,103 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-06 00:49:35,488 django.request: Not Found: /chat/
+[WARNING] 2021-12-06 00:49:36,883 django.request: Not Found: /chat/
+[WARNING] 2021-12-06 00:49:44,425 django.request: Not Found: /chatchoose
+[ERROR] 2021-12-06 00:50:05,627 django.request: Internal Server Error: /chat/easy/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[DEBUG] 2021-12-06 00:50:52,195 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-06 00:51:18,325 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[DEBUG] 2021-12-06 00:51:26,070 django.request: Asynchronous middleware whitenoise.middleware.WhiteNoiseMiddleware adapted.
+[WARNING] 2021-12-06 00:51:36,176 django.request: Not Found: /c
+[WARNING] 2021-12-06 00:51:43,864 django.request: Not Found: /chat/
+[WARNING] 2021-12-06 00:51:50,568 django.request: Not Found: /chatchoose
+[ERROR] 2021-12-06 00:58:40,240 django.request: Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'default.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'default.png'. Did you forget to register or load this tag?
+[ERROR] 2021-12-06 00:59:10,903 django.request: Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'media' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[WARNING] 2021-12-06 00:59:30,894 django.request: Not Found: /static/
+[WARNING] 2021-12-06 00:59:30,949 django.request: Not Found: /static/
+[WARNING] 2021-12-06 01:00:41,448 django.request: Not Found: /static/
+[WARNING] 2021-12-06 01:00:41,501 django.request: Not Found: /static/
+[WARNING] 2021-12-06 01:02:30,804 django.request: Not Found: /static/
+[WARNING] 2021-12-06 01:02:31,012 django.request: Not Found: /static/
+[ERROR] 2021-12-06 01:06:24,848 django.request: Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '-name-submit' from 'room-name-submit'
+[ERROR] 2021-12-06 01:06:42,779 django.request: Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/chat/views.py", line 11, in room
+    return render(request, 'chat/room.html', {
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '-name-input' from 'room-name-input'
+[WARNING] 2021-12-06 01:07:09,911 django.request: Not Found: /chat/
+[WARNING] 2021-12-06 01:07:24,183 django.request: Not Found: /chat//
+[WARNING] 2021-12-06 01:11:54,517 django.request: Not Found: /home
+[WARNING] 2021-12-06 01:15:37,449 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-06 01:16:04,875 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-06 01:17:18,677 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-06 01:17:55,896 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-06 01:18:08,922 django.request: Not Found: /chat/chatchoose/static/customstyle.css
