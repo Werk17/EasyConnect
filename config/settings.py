@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'EasyConnect',
     'customuser',
     'announcements',
+    'chat',
+    'channels',
     
 ]
 
@@ -81,7 +83,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
+ASGI_APPLICATION = 'config.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -203,4 +205,12 @@ LOGGING = {
             'propagate': False
         },
     }
+}
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
 }
