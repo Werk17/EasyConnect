@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Contact Us Success {% endblock title %}
+
+{% block main %}
+
+
+
+<div class="container-fluid bg-dark" style="height:697px;">
+    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+        <a class="navbar-brand" href="{% url 'home' %}">
+            <img src="{% static 'homepagepic.png' %}" alt="Logo" style="width:300px;">
+        </a>
+
+    </nav>
+
+
+    <div class="d-flex justify-content-center" style="background-color: #70679b; max-width: 100%;">
+
+        <div class="jumbotron justify-content-center">
+            <h1>Thank you for your inquiry</h1>
+            <br>
+
+            <p>Your contact information and message was successfully submitted.</p>
+            <p>Please give 2 - 3 business days for us to proccess your inquiry.</p>
+            <br>
+            <p>Return to the <a href="{% url 'home' %}">Homepage</a> </p>
+        </div>
+    </div>
+</div>
+{% endblock main %}

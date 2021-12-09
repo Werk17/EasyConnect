@@ -12,8 +12,8 @@
   <p class="lead1">A Message App for Business.</p>
   {% if not request.user.is_authenticated %}
   <p class="lead2">
-    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Sign in</a>
-    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Sign in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Client Log in</a>
+    <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Admin Login</a>
 
   </p>
   <p class="lead2">
@@ -35,9 +35,9 @@
 
 <div class="jumbotron1">
 
-    {% for announcement in announcements %}
-        <div class="alert alert-{{ announcement.level }}">{{ announcement.body|safe }} </div>
-    {% endfor %}
+  {% for announcement in announcements %}
+  <div class="alert alert-{{ announcement.level }}">{{ announcement.body|safe }} </div>
+  {% endfor %}
 
 </div> <!-- end subcontent -->
 {% endblock main %}
@@ -48,5 +48,5 @@
 <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
 <li><a href="{% url 'about' %}"><i class="fas fa-address-card"></i>About</a></li>
 <li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
-<li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-{% endblock list%}
+<li><a href="{% url 'contact' %}"><i class="fas fa-address-book"></i>Contact</a></li>
+{% endblock list %}

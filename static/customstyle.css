@@ -14,7 +14,7 @@ body {
 }
 
 .main_content {
-    background-color: #fff;
+    background-color: #fff ;
     color: #4b4276;
     margin-left: 350px;
 }
@@ -113,8 +113,6 @@ body {
     background: #c6c2db;
     margin-left: 0px;
     display: inline;
-
-
 }
 
 .jumbotron2 .row h4 {
@@ -124,7 +122,7 @@ body {
     border-style: groove;
     border-bottom: 3px solid #4b4276;
     border-left: 3px solid #4b4276;
-    
+
 }
 
 .lead1 {

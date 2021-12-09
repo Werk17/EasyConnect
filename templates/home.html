@@ -42,7 +42,8 @@
   </div>
 </div>
 <div class="subcontent"> <i><b>Additional information:</b></i> <span style="text-decoration: underline">Admin
-    Users</span> define the experience for the organization. <a href="{% url 'Adminsignup' %}"> Create an admin account</a> for your organization
+    Users</span> define the experience for the organization. <a href="{% url 'Adminsignup' %}"> Create an admin
+    account</a> for your organization
   to setup the necessary tools needed to use this platform. Associates of your organization should sign up as an
   end-user to your organization.
 </div>
@@ -59,11 +60,11 @@
 {% endblock main %}
 
 {% block list %}
-<!-- <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li> -->
+<li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
 <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>Profile</a></li>
 <li><a href="{% url 'about' %}"><i class="fas fa-address-card"></i>About</a></li>
 <li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
 <li><a href="{% url 'announcements' %}"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
-<li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
+<li><a href="{% url 'contact' %}"><i class="fas fa-address-book"></i>Contact</a></li>
 <!-- <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li> -->
 {% endblock list%}

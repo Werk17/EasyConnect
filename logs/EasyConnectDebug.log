@@ -1676,3 +1676,1262 @@ Traceback (most recent call last):
   File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/utils/module_loading.py", line 22, in import_string
     raise ImportError('Module "%s" does not define a "%s" attribute/class' % (
 ImportError: Module "announcements.context_processors" does not define a "announcements" attribute/class
+[WARNING] 2021-12-06 16:48:45,987 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:49:54,816 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-06 16:54:26,420 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 14, in ContactView
+    return render(request, 'contact.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+[WARNING] 2021-12-06 16:54:43,582 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:10,718 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:20,675 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:23,250 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:23,882 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:24,229 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:24,453 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:24,641 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:55:25,663 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 16:56:21,723 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:03:07,906 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:05:49,917 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-06 17:06:53,001 django.request: Internal Server Error: /admin/ContactUs/contactmodel/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contactmodel
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contactmodel
+[WARNING] 2021-12-06 17:10:10,183 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:10:53,312 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:13:00,923 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:13:11,486 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:13:22,934 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:13:59,171 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:16:10,870 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:19:20,191 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:47:04,969 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:47:05,650 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:47:44,150 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:52:17,294 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:52:21,126 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:52:24,993 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:53:47,512 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:53:52,437 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:56:36,482 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:57:01,445 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:57:29,720 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:58:58,507 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:59:44,165 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 17:59:53,496 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:01:48,699 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:02:13,416 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-06 18:02:50,305 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 14, in ContactView
+    return render(request, 'contact.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 272, in do_extends
+    raise TemplateSyntaxError("'%s' cannot appear more than once in the same template" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+[WARNING] 2021-12-06 18:03:33,467 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:09:18,069 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:11:51,084 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:11:51,086 django.request: Not Found: /contact/static/contact.css
+[WARNING] 2021-12-06 18:11:51,243 django.request: Not Found: /contact/static/contact.css
+[WARNING] 2021-12-06 18:13:36,638 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-06 18:15:09,692 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    return render(request, 'contact.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[WARNING] 2021-12-06 18:15:46,591 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-06 18:23:14,472 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    form.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\forms\models.py", line 460, in save
+    self.instance.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[WARNING] 2021-12-06 18:23:30,687 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:24:35,210 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:25:07,300 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:26:50,874 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:27:13,188 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-06 18:27:26,128 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 13:55:33,638 django.request: Not Found: /favicon.ico
+[WARNING] 2021-12-08 13:55:37,775 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-08 13:56:34,173 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 15, in ContactView
+    form.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\forms\models.py", line 460, in save
+    self.instance.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 13:57:30,764 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:00:39,506 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:01:47,625 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:03:49,729 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:04:18,871 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:13:09,457 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:13:38,113 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[ERROR] 2021-12-08 14:16:21,626 django.request: Internal Server Error: /admin/ContactUs/contact/add/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: ContactUs_contact
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: ContactUs_contact
+[WARNING] 2021-12-08 14:20:07,451 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-08 14:20:23,334 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    return render(request, 'contact/success.html')
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: contact/success.html
+[WARNING] 2021-12-08 14:22:30,476 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:22:38,316 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-08 14:24:03,618 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    return render(request, 'contact/success.html')
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+[ERROR] 2021-12-08 14:24:25,932 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: contact/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    return render(request, 'contact/success.html')
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: contact/base.html
+[ERROR] 2021-12-08 14:24:48,442 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: contact/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 16, in ContactView
+    return render(request, 'contact/success.html')
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: contact/base.html
+[WARNING] 2021-12-08 14:25:27,206 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:27:59,821 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:28:34,268 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:29:30,781 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:30:59,356 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:31:41,535 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:32:12,259 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:32:43,484 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:35:02,220 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:35:29,705 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:35:53,294 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:36:20,214 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:37:20,186 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:37:46,198 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:38:52,085 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:39:06,600 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:39:41,880 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:39:51,124 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:40:59,285 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:42:21,158 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:42:54,725 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:43:16,939 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:44:43,203 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:46:16,189 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:47:56,884 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:48:07,138 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 14:52:01,815 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:06:26,057 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:08:38,830 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:09:10,074 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:09:19,030 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:09:31,756 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:10:07,706 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:10:46,844 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:11:19,035 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:12:27,883 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:14:04,782 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:14:16,194 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:15:26,036 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:15:48,993 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:15:57,267 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:16:57,304 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:17:08,206 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:20:18,230 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:21:22,920 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:35:15,810 django.request: Not Found: /contact/static/customstyle.css
+[ERROR] 2021-12-08 15:37:04,083 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 19, in ContactView
+    return render(request, 'contact.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\defaulttags.py", line 1372, in url
+    viewname = parser.compile_filter(bits[1])
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''home' from ''home'
+[WARNING] 2021-12-08 15:37:22,723 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:37:33,525 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:38:10,862 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:38:28,953 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:38:43,229 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:38:53,770 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:39:02,837 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:39:40,241 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:40:00,921 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:40:14,311 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:42:03,037 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:43:52,596 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:43:52,614 django.request: Not Found: /contact/homepagepic.png
+[WARNING] 2021-12-08 15:44:08,404 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:44:08,411 django.request: Not Found: /contact/static/homepagepic.png
+[ERROR] 2021-12-08 15:44:44,148 django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static/homepagepic.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\werkc\Desktop\EasyConnect\ContactUs\views.py", line 19, in ContactView
+    return render(request, 'contact.html', context)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\werkc\.virtualenvs\easyconnect-JWSqFyg0\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'static/homepagepic.png', expected 'endblock'. Did you forget to register or load this tag?
+[WARNING] 2021-12-08 15:45:15,482 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:45:30,102 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:45:39,868 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:46:11,690 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:47:09,791 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:47:34,229 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:50:17,821 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:50:59,773 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:51:24,922 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:51:48,391 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:52:45,190 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:54:10,631 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:55:07,939 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:56:57,424 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:57:15,031 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:57:34,833 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:57:55,737 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 15:58:29,924 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:00:44,822 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:00:59,106 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:01:30,011 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:01:47,093 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:01:47,826 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:01:48,182 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:02:07,105 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:03:13,794 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:03:31,630 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:03:45,320 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:04:01,582 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:04:31,857 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:04:48,466 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:05:05,522 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:06:56,849 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:08:17,556 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:08:38,924 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:11:32,220 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:11:45,518 django.request: Not Found: /contact/success
+[WARNING] 2021-12-08 16:11:57,211 django.request: Not Found: /contact/contact/success
+[WARNING] 2021-12-08 16:12:20,596 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:13:30,356 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:13:47,873 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:15:02,413 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:15:27,906 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:15:53,076 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:16:05,885 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:16:47,486 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:17:04,996 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:17:15,312 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:17:22,124 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:17:30,784 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:17:53,292 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:18:20,567 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:18:53,387 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:19:38,712 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:19:48,450 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:20:06,596 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:20:19,960 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:20:53,465 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:21:22,444 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:21:38,897 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:21:52,488 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:22:09,754 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:23:05,587 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:26:24,966 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:27:08,487 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:28:11,940 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:28:21,599 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:28:46,194 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:28:55,557 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:30:33,077 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:30:54,961 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:31:31,038 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:32:28,055 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:33:14,473 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:33:49,104 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:33:59,651 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:34:21,210 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:34:39,360 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:34:50,304 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:35:01,233 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:35:23,067 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:35:48,533 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:35:58,058 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:36:08,033 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:36:54,921 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:40:23,225 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:40:38,859 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:48:47,174 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:57:41,933 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:59:03,608 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 16:59:10,169 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:00:20,687 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:00:42,018 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:00:51,424 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:01:01,063 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:01:04,231 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:02:11,457 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:03:28,047 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:08:19,568 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:08:34,188 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:08:55,374 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:09:28,378 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:09:36,689 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:09:55,773 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:10:12,128 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-08 17:12:05,168 django.request: Not Found: /contact/static/customstyle.css

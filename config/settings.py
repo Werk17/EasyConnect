@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'EasyConnect',
     'customuser',
     'announcements',
+    'ContactUs',
     
 ]
 
