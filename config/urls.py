@@ -10,6 +10,7 @@ urlpatterns = [
     # path('profile/', include('Easyconnect.urls'), name='profile'),
     path('', include('EasyConnect.urls')),
     path('', include('customuser.urls')),
+    path('', include('ContactUs.urls')),
     path('logs/', include('log_viewer.urls')),
     path('chat/', include('chat.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
