@@ -31,6 +31,7 @@
 <br>
 <hr>
 <h1 style="padding-block-start: 0%;">User Profile</h1>
+<hr>
 
 <div class="jumbotron1">
 
@@ -87,6 +88,11 @@
     </div>
     <br>
 
+    <div class="row">
+      <h4><b>Password:</b><a href="{% url 'password_change' %}"> Change Password</a></h4>
+    </div>
+    <br>
+
 
 
     {% endif %}
@@ -98,7 +104,7 @@
 {% block list %}
 <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Home</a></li>
 <li><a href="{% url 'about' %}"><i class="fas fa-address-card"></i>About</a></li>
-<li><a href="#"><i class="fas fa-project-diagram"></i>Chat</a></li>
+<li><a href="{% url 'index' %}"><i class="fas fa-project-diagram"></i>Chat</a></li>
 <li><a href="{% url 'announcements' %}"><i class="fas fa-bullhorn"></i>Anouncements</a></li>
 <li><a href="{% url 'contact' %}"><i class="fas fa-address-book"></i>Contact</a></li>
 {% endblock list%}
