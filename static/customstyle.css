@@ -9,12 +9,8 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* body {
-    background: #212121;
-} */
-
 .main_content {
-    background-color: #fff ;
+    background-color: rgb(228, 227, 227) ;
     color: #4b4276;
     margin-left: 350px;
 }
@@ -25,7 +21,7 @@
     text-decoration: underline;
     text-align: center;
     border: 15px #70679b;
-    background-color: #fff;
+    background-color: rgb(228, 227, 227);
     margin: 20px;
 
 }
@@ -153,5 +149,5 @@ body {
     background: #654ea3;
     background: linear-gradient(to right, #e96443, #904e95);
     min-height: 100vh;
-    overflow-x: hidden
+    overflow-x: hidden;
 }

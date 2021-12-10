@@ -29,11 +29,10 @@
 <!-- main content block  -->
 {% block main %}
 <br>
-<hr>
-<h1 style="padding-block-start: 0%;">Anouncements:</h1>
+<h1 style="padding-block-start: 0%; margin-left: 35%;">Anouncements:</h1>
 <hr>
 
-<div class="jumbotron1">
+<div class="jumbotron">
 
   {% for announcement in announcements %}
   <div class="alert alert-{{ announcement.level }}">{{ announcement.body|safe }} </div>
