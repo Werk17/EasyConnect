@@ -28,76 +28,66 @@
 
 <!-- main content block  -->
 {% block main %}
-<br>
-<hr>
-<h1 style="padding-block-start: 0%;">User Profile</h1>
-<hr>
-
-<div class="jumbotron1">
-
-  {% if not request.user.is_authenticated %}
-  <div class="subcontent">Please <a href="{% url 'login' %}">login</a> to view profile page Information</div>
-  {% else %}
-  <div class="jumbotron2">
-    <h3 style="text-transform: capitalize;">{{user.username}}</h3>
-    <br>
-    <img style="height: 150px;border-radius: 50%;" src="{{user.photo.url}}" alt="ProfilePic" />
-
-    {% if user.is_superuser %}
-    <!-- check type of user-->
-
-
-    <div class="row">
-      <h4><b>User Status:</b> Admin</h4>
+{% if not request.user.is_authenticated %}
+<div class="subcontent">Please <a href="{% url 'login' %}">login</a> to view profile page Information</div>
+{% else %}
+<div class="row py-5 px-4">
+  <div class="col-md-5 mx-auto">
+    <!-- Profile widget -->
+    <div class="bg-white shadow rounded overflow-hidden">
+      <div class="px-4 pt-0 pb-4 cover">
+        <div class="media align-items-end profile-head">
+          <div class="profile mr-3"><img src="{{user.photo.url}}" alt="..." width="130"
+              class="rounded mb-2 img-thumbnail"></div>
+          <div class="media-body mb-5 text-white">
+            <h4 class="mt-0 mb-0">{{user.username}}</h4>
+            <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i>{{user.Organization_name}}</p>
+          </div>
+          {% if user.is_superuser %}
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <h5 class="font-weight-bold mb-0 d-block">Status</h5><small class="text-muted"> <i
+                  class="fas fa-user mr-1"></i>Admin</small>
+            </li>
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      <div class="px-4 py-4">
+        <h5 class="mb-0">About</h5>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Username:</b> {{user.username}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Email: </b>{{user.email}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>First: </b>{{user.first_name}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Last: </b>{{user.last_name}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Phone: </b>{{user.phone_number}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Name of Organization: </b>{{user.Organization_name}}</p>
+          </div>
+          <br>
+          <div class="row">
+            <p class="font-italic mb-0"><b>Password:</b><a href="{% url 'password_change' %}"> Change Password</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-
-    {% endif %}
-    <div class="row">
-      <h4><b>Username:</b> {{user.username}}</h4>
-    </div>
-    <br>
-
-
-    <div class="row">
-      <h4><b>Email:</b> {{user.email}} </h4>
-    </div>
-    <br>
-
-
-    <div class="row">
-      <h4><b>First:</b> {{user.first_name}}</h4>
-    </div>
-    <br>
-
-
-    <div class="row">
-      <h4><b>Last:</b> {{user.last_name}}</h4>
-    </div>
-    <br>
-
-
-    <div class="row">
-      <h4><b>Phone:</b> {{user.phone_number}} </h4>
-    </div>
-    <br>
-
-
-    <div class="row">
-      <h4><b>Name of Organization:</b> {{user.Organization_name}}</h4>
-    </div>
-    <br>
-
-    <div class="row">
-      <h4><b>Password:</b><a href="{% url 'password_change' %}"> Change Password</a></h4>
-    </div>
-    <br>
-
-
-
-    {% endif %}
   </div>
-</div> <!-- end subcontent -->
+</div>
+{% endif %}
 {% endblock main %}
 
 <!-- sidbar list views -->
