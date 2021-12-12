@@ -30,7 +30,7 @@ DEBUG = True
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'announcements',
     'ContactUs',
     'chat',
-    'channels',
+    # 'channels',
+    # 'channels_redis',
     
 ]
 
@@ -84,7 +85,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-ASGI_APPLICATION = 'config.routing.application'
+ASGI_APPLICATION = 'config.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -209,7 +210,7 @@ LOGGING = {
 }
 CHANNEL_LAYERS = {
     'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
         'CONFIG': {
             "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
         },
