@@ -7143,3 +7143,826 @@ Traceback (most recent call last):
 channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels_redis.core.RedisChannelLayer' specified for default
 [DEBUG] 2021-12-10 14:50:23,282 asyncio: Using selector: SelectSelector
 [DEBUG] 2021-12-10 14:50:23,670 asyncio: Using selector: SelectSelector
+[DEBUG] 2021-12-12 20:46:10,744 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:46:10,823 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:46:10,823 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:46:10,824 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 20:46:46,657 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:46:46,711 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:46:46,711 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:46:46,712 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 20:46:46,784 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:46:54,874 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:46:54,927 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:46:54,928 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:46:54,928 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 20:46:54,977 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:47:10,492 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:47:10,545 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:47:10,545 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:47:10,546 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 20:47:10,815 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:47:10,868 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:47:10,869 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:47:10,869 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:47:10,877 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:47:58,201 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/routing.py changed, reloading.
+[DEBUG] 2021-12-12 20:47:58,202 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:47:58,573 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:47:58,629 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:47:58,630 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:47:58,630 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:47:58,638 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:47:58,708 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:47:58,708 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:47:58,708 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:48:04,279 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62842]
+[DEBUG] 2021-12-12 20:48:04,303 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62842]
+[DEBUG] 2021-12-12 20:48:04,304 daphne.http_protocol: HTTP close for ['127.0.0.1', 62842]
+[DEBUG] 2021-12-12 20:48:04,304 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62842]
+[INFO] 2021-12-12 20:48:04,304 django.channels.server: [mHTTP GET / 200 [0.02, 127.0.0.1:62842][0m
+[DEBUG] 2021-12-12 20:48:04,305 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:04,306 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62844]
+[DEBUG] 2021-12-12 20:48:04,307 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:04,307 daphne.http_protocol: HTTP close for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:04,307 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62843]
+[INFO] 2021-12-12 20:48:04,308 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:62843][0m
+[DEBUG] 2021-12-12 20:48:04,309 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62844]
+[DEBUG] 2021-12-12 20:48:04,309 daphne.http_protocol: HTTP close for ['127.0.0.1', 62844]
+[DEBUG] 2021-12-12 20:48:04,309 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62844]
+[INFO] 2021-12-12 20:48:04,310 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:62844][0m
+[DEBUG] 2021-12-12 20:48:07,005 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:07,094 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:07,094 daphne.http_protocol: HTTP close for ['127.0.0.1', 62843]
+[DEBUG] 2021-12-12 20:48:07,095 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62843]
+[ERROR] 2021-12-12 20:48:07,095 django.channels.server: [35;1mHTTP GET /chat/ 500 [0.09, 127.0.0.1:62843][0m
+[INFO] 2021-12-12 20:49:02,621 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:49:02,622 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:49:02,977 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:49:03,034 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:49:03,035 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:49:03,035 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:49:03,044 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:49:03,115 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:49:03,115 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:49:03,116 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:49:07,255 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62852]
+[DEBUG] 2021-12-12 20:49:07,286 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62852]
+[DEBUG] 2021-12-12 20:49:07,287 daphne.http_protocol: HTTP close for ['127.0.0.1', 62852]
+[DEBUG] 2021-12-12 20:49:07,288 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62852]
+[WARNING] 2021-12-12 20:49:07,288 django.channels.server: [33mHTTP GET /chat/ 404 [0.03, 127.0.0.1:62852][0m
+[INFO] 2021-12-12 20:49:39,251 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:49:39,252 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:49:39,612 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:49:39,667 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:49:39,668 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:49:39,668 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:49:39,676 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:49:39,742 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:49:39,742 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:49:39,743 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:49:43,457 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,490 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,491 daphne.http_protocol: HTTP close for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,491 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62865]
+[INFO] 2021-12-12 20:49:43,491 django.channels.server: [mHTTP GET / 200 [0.03, 127.0.0.1:62865][0m
+[DEBUG] 2021-12-12 20:49:43,493 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:43,493 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62867]
+[DEBUG] 2021-12-12 20:49:43,495 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:43,495 daphne.http_protocol: HTTP close for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:43,496 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62866]
+[INFO] 2021-12-12 20:49:43,496 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:62866][0m
+[DEBUG] 2021-12-12 20:49:43,497 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62867]
+[DEBUG] 2021-12-12 20:49:43,498 daphne.http_protocol: HTTP close for ['127.0.0.1', 62867]
+[DEBUG] 2021-12-12 20:49:43,498 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62867]
+[INFO] 2021-12-12 20:49:43,498 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:62867][0m
+[DEBUG] 2021-12-12 20:49:43,505 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,507 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,507 daphne.http_protocol: HTTP close for ['127.0.0.1', 62865]
+[DEBUG] 2021-12-12 20:49:43,507 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62865]
+[INFO] 2021-12-12 20:49:43,507 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:62865][0m
+[DEBUG] 2021-12-12 20:49:43,508 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62868]
+[DEBUG] 2021-12-12 20:49:43,509 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62868]
+[DEBUG] 2021-12-12 20:49:43,510 daphne.http_protocol: HTTP close for ['127.0.0.1', 62868]
+[DEBUG] 2021-12-12 20:49:43,510 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62868]
+[INFO] 2021-12-12 20:49:43,510 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:62868][0m
+[DEBUG] 2021-12-12 20:49:45,343 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:45,350 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:45,351 daphne.http_protocol: HTTP close for ['127.0.0.1', 62866]
+[DEBUG] 2021-12-12 20:49:45,351 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62866]
+[WARNING] 2021-12-12 20:49:45,351 django.channels.server: [33mHTTP GET /index/ 404 [0.01, 127.0.0.1:62866][0m
+[INFO] 2021-12-12 20:50:22,049 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:50:22,049 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:50:22,416 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:50:22,476 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:50:22,476 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:50:22,476 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:50:22,485 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:50:22,551 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:50:22,551 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:50:22,551 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:50:27,221 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62873]
+[DEBUG] 2021-12-12 20:50:27,292 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62873]
+[DEBUG] 2021-12-12 20:50:27,293 daphne.http_protocol: HTTP close for ['127.0.0.1', 62873]
+[DEBUG] 2021-12-12 20:50:27,293 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62873]
+[ERROR] 2021-12-12 20:50:27,293 django.channels.server: [35;1mHTTP GET /chat/index/ 500 [0.07, 127.0.0.1:62873][0m
+[INFO] 2021-12-12 20:52:08,257 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:52:08,257 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:52:08,595 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:52:08,653 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:52:08,653 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:52:08,654 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:52:08,662 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:52:08,731 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:52:08,732 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:52:08,732 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:52:13,856 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:13,920 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:13,921 daphne.http_protocol: HTTP close for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:13,921 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62883]
+[ERROR] 2021-12-12 20:52:13,921 django.channels.server: [35;1mHTTP GET /chat/index/ 500 [0.07, 127.0.0.1:62883][0m
+[DEBUG] 2021-12-12 20:52:15,400 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,430 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,430 daphne.http_protocol: HTTP close for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,430 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62883]
+[INFO] 2021-12-12 20:52:15,430 django.channels.server: [mHTTP GET / 200 [0.03, 127.0.0.1:62883][0m
+[DEBUG] 2021-12-12 20:52:15,442 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,443 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,443 daphne.http_protocol: HTTP close for ['127.0.0.1', 62883]
+[DEBUG] 2021-12-12 20:52:15,444 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62883]
+[INFO] 2021-12-12 20:52:15,444 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:62883][0m
+[DEBUG] 2021-12-12 20:52:15,445 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62884]
+[DEBUG] 2021-12-12 20:52:15,446 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 62884]
+[DEBUG] 2021-12-12 20:52:15,446 daphne.http_protocol: HTTP close for ['127.0.0.1', 62884]
+[DEBUG] 2021-12-12 20:52:15,446 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62884]
+[INFO] 2021-12-12 20:52:15,446 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:62884][0m
+[DEBUG] 2021-12-12 20:52:17,556 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62885]
+[DEBUG] 2021-12-12 20:52:17,629 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62885]
+[DEBUG] 2021-12-12 20:52:17,630 daphne.http_protocol: HTTP close for ['127.0.0.1', 62885]
+[DEBUG] 2021-12-12 20:52:17,630 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62885]
+[ERROR] 2021-12-12 20:52:17,630 django.channels.server: [35;1mHTTP GET /chat/ 500 [0.07, 127.0.0.1:62885][0m
+[INFO] 2021-12-12 20:52:28,521 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:52:28,522 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:52:28,884 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:52:28,943 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:52:28,944 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:52:28,944 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:52:28,952 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:52:29,021 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:52:29,021 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:52:29,022 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:52:30,368 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62889]
+[DEBUG] 2021-12-12 20:52:30,427 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62889]
+[DEBUG] 2021-12-12 20:52:30,428 daphne.http_protocol: HTTP close for ['127.0.0.1', 62889]
+[DEBUG] 2021-12-12 20:52:30,428 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62889]
+[ERROR] 2021-12-12 20:52:30,428 django.channels.server: [35;1mHTTP GET /chat/chatchoose/ 500 [0.06, 127.0.0.1:62889][0m
+[DEBUG] 2021-12-12 20:52:31,433 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,434 daphne.http_protocol: HTTP 301 response started for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,435 daphne.http_protocol: HTTP close for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,435 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62890]
+[INFO] 2021-12-12 20:52:31,435 django.channels.server: [32mHTTP GET /chat/choose 301 [0.00, 127.0.0.1:62890][0m
+[DEBUG] 2021-12-12 20:52:31,441 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,492 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,493 daphne.http_protocol: HTTP close for ['127.0.0.1', 62890]
+[DEBUG] 2021-12-12 20:52:31,493 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62890]
+[ERROR] 2021-12-12 20:52:31,493 django.channels.server: [35;1mHTTP GET /chat/choose/ 500 [0.05, 127.0.0.1:62890][0m
+[INFO] 2021-12-12 20:56:06,769 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/views.py changed, reloading.
+[DEBUG] 2021-12-12 20:56:06,770 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:56:07,156 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:56:07,220 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:56:07,221 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:56:07,221 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:56:07,229 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:56:07,302 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:56:07,302 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:56:07,303 daphne.server: Listening on TCP address 127.0.0.1:8000
+[INFO] 2021-12-12 20:56:26,761 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:56:26,762 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:56:27,103 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:56:27,157 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:56:27,157 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:56:27,158 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:56:27,166 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:56:27,234 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:56:27,234 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:56:27,234 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:56:31,471 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:31,518 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:31,519 daphne.http_protocol: HTTP close for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:31,519 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62925]
+[ERROR] 2021-12-12 20:56:31,519 django.channels.server: [35;1mHTTP GET /chat/choose/ 500 [0.05, 127.0.0.1:62925][0m
+[DEBUG] 2021-12-12 20:56:33,056 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:33,079 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:33,080 daphne.http_protocol: HTTP close for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:33,080 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62925]
+[WARNING] 2021-12-12 20:56:33,080 django.channels.server: [33mHTTP GET /chat/ 404 [0.02, 127.0.0.1:62925][0m
+[DEBUG] 2021-12-12 20:56:35,463 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:35,483 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:35,485 daphne.http_protocol: HTTP close for ['127.0.0.1', 62925]
+[DEBUG] 2021-12-12 20:56:35,485 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62925]
+[WARNING] 2021-12-12 20:56:35,485 django.channels.server: [33mHTTP GET /chat/ 404 [0.02, 127.0.0.1:62925][0m
+[INFO] 2021-12-12 20:57:25,920 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:57:25,921 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:57:26,301 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:57:26,359 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:57:26,359 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:57:26,360 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:57:26,368 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:57:26,435 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:57:26,435 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:57:26,436 daphne.server: Listening on TCP address 127.0.0.1:8000
+[INFO] 2021-12-12 20:57:35,698 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/EasyConnect/views.py changed, reloading.
+[DEBUG] 2021-12-12 20:57:35,698 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:57:36,063 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:57:36,124 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:57:36,124 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:57:36,125 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:57:36,133 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:57:36,199 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:57:36,199 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:57:36,200 daphne.server: Listening on TCP address 127.0.0.1:8000
+[INFO] 2021-12-12 20:58:12,018 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 20:58:12,019 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:58:12,372 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:58:12,428 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:58:12,429 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:58:12,429 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:58:12,438 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:58:12,510 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:58:12,511 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:58:12,511 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:58:26,864 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:26,899 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:26,900 daphne.http_protocol: HTTP close for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:26,901 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62949]
+[WARNING] 2021-12-12 20:58:26,901 django.channels.server: [33mHTTP GET /chat/ 404 [0.04, 127.0.0.1:62949][0m
+[DEBUG] 2021-12-12 20:58:42,027 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:42,048 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:42,049 daphne.http_protocol: HTTP close for ['127.0.0.1', 62949]
+[DEBUG] 2021-12-12 20:58:42,049 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62949]
+[WARNING] 2021-12-12 20:58:42,050 django.channels.server: [33mHTTP GET /chat/ 404 [0.02, 127.0.0.1:62949][0m
+[DEBUG] 2021-12-12 20:59:06,610 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,674 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,674 daphne.http_protocol: HTTP close for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,675 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62957]
+[ERROR] 2021-12-12 20:59:06,675 django.channels.server: [35;1mHTTP GET /chat/chatchoose/ 500 [0.06, 127.0.0.1:62957][0m
+[DEBUG] 2021-12-12 20:59:06,782 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,839 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,840 daphne.http_protocol: HTTP close for ['127.0.0.1', 62957]
+[DEBUG] 2021-12-12 20:59:06,840 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62957]
+[ERROR] 2021-12-12 20:59:06,840 django.channels.server: [35;1mHTTP GET /chat/choose/ 500 [0.06, 127.0.0.1:62957][0m
+[INFO] 2021-12-12 20:59:46,314 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/views.py changed, reloading.
+[DEBUG] 2021-12-12 20:59:46,314 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 20:59:46,676 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 20:59:46,738 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 20:59:46,738 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 20:59:46,738 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 20:59:46,748 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 20:59:46,815 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 20:59:46,815 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 20:59:46,816 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 20:59:47,553 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:47,571 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:47,574 daphne.http_protocol: HTTP close for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:47,575 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62977]
+[INFO] 2021-12-12 20:59:47,575 django.channels.server: [mHTTP GET /chat/choose/ 200 [0.02, 127.0.0.1:62977][0m
+[DEBUG] 2021-12-12 20:59:53,811 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:53,838 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:53,839 daphne.http_protocol: HTTP close for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 20:59:53,839 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62977]
+[WARNING] 2021-12-12 20:59:53,839 django.channels.server: [33mHTTP GET /chat/ 404 [0.03, 127.0.0.1:62977][0m
+[DEBUG] 2021-12-12 21:00:11,557 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 21:00:11,579 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 21:00:11,581 daphne.http_protocol: HTTP close for ['127.0.0.1', 62977]
+[DEBUG] 2021-12-12 21:00:11,582 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62977]
+[WARNING] 2021-12-12 21:00:11,582 django.channels.server: [33mHTTP GET /chat/ 404 [0.03, 127.0.0.1:62977][0m
+[INFO] 2021-12-12 21:00:57,680 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/urls.py changed, reloading.
+[DEBUG] 2021-12-12 21:00:57,681 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:00:58,026 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:00:58,082 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:00:58,083 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:00:58,083 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 21:00:58,092 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 21:00:58,164 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 21:00:58,164 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 21:00:58,165 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 21:01:11,086 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:11,104 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:11,105 daphne.http_protocol: HTTP close for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:11,106 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62992]
+[INFO] 2021-12-12 21:01:11,106 django.channels.server: [mHTTP GET /chat/ 200 [0.02, 127.0.0.1:62992][0m
+[DEBUG] 2021-12-12 21:01:14,572 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:14,581 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:14,583 daphne.http_protocol: HTTP close for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:14,584 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62992]
+[INFO] 2021-12-12 21:01:14,584 django.channels.server: [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:62992][0m
+[DEBUG] 2021-12-12 21:01:17,177 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:17,214 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:17,215 daphne.http_protocol: HTTP close for ['127.0.0.1', 62992]
+[DEBUG] 2021-12-12 21:01:17,215 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62992]
+[ERROR] 2021-12-12 21:01:17,215 django.channels.server: [35;1mHTTP GET /chat/helpme/ 500 [0.04, 127.0.0.1:62992][0m
+[INFO] 2021-12-12 21:01:31,275 django.utils.autoreload: /Users/rileymarsden/Desktop/EasyConnect/chat/views.py changed, reloading.
+[DEBUG] 2021-12-12 21:01:31,276 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:01:31,636 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:01:31,691 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:01:31,692 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:01:31,692 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 21:01:31,700 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 21:01:31,768 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 21:01:31,769 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 21:01:31,769 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 21:01:34,338 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:34,361 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:34,362 daphne.http_protocol: HTTP close for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:34,363 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62996]
+[INFO] 2021-12-12 21:01:34,363 django.channels.server: [mHTTP GET /chat/helpme/ 200 [0.03, 127.0.0.1:62996][0m
+[INFO] 2021-12-12 21:01:34,459 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:62997]
+[DEBUG] 2021-12-12 21:01:34,459 daphne.http_protocol: Upgraded connection ['127.0.0.1', 62997] to WebSocket
+[ERROR] 2021-12-12 21:01:34,774 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:01:34,786 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 62997]
+[INFO] 2021-12-12 21:01:34,786 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:62997]
+[DEBUG] 2021-12-12 21:01:37,851 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:37,862 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:37,864 daphne.http_protocol: HTTP close for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:37,864 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62996]
+[INFO] 2021-12-12 21:01:37,864 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.01, 127.0.0.1:62996][0m
+[INFO] 2021-12-12 21:01:37,886 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:62998]
+[DEBUG] 2021-12-12 21:01:37,886 daphne.http_protocol: Upgraded connection ['127.0.0.1', 62998] to WebSocket
+[ERROR] 2021-12-12 21:01:38,791 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:01:38,797 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 62998]
+[INFO] 2021-12-12 21:01:38,798 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:62998]
+[DEBUG] 2021-12-12 21:01:49,278 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:49,292 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:49,293 daphne.http_protocol: HTTP close for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:49,293 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62996]
+[INFO] 2021-12-12 21:01:49,293 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.02, 127.0.0.1:62996][0m
+[INFO] 2021-12-12 21:01:49,311 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63002]
+[DEBUG] 2021-12-12 21:01:49,311 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63002] to WebSocket
+[ERROR] 2021-12-12 21:01:49,811 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:01:49,815 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63002]
+[INFO] 2021-12-12 21:01:49,816 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63002]
+[DEBUG] 2021-12-12 21:01:53,498 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:53,505 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:53,506 daphne.http_protocol: HTTP close for ['127.0.0.1', 62996]
+[DEBUG] 2021-12-12 21:01:53,507 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 62996]
+[INFO] 2021-12-12 21:01:53,507 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.01, 127.0.0.1:62996][0m
+[INFO] 2021-12-12 21:01:53,521 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63004]
+[DEBUG] 2021-12-12 21:01:53,522 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63004] to WebSocket
+[ERROR] 2021-12-12 21:01:53,821 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:01:53,825 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63004]
+[INFO] 2021-12-12 21:01:53,826 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63004]
+[DEBUG] 2021-12-12 21:06:58,360 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:06:58,489 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:06:59,770 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:06:59,823 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:06:59,824 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:06:59,824 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 21:07:00,094 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:07:00,148 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:07:00,148 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:07:00,149 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 21:07:00,157 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 21:07:00,224 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 21:07:00,224 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 21:07:00,225 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 21:07:05,638 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:05,657 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:05,659 daphne.http_protocol: HTTP close for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:05,659 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63019]
+[INFO] 2021-12-12 21:07:05,659 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.02, 127.0.0.1:63019][0m
+[INFO] 2021-12-12 21:07:05,681 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63020]
+[DEBUG] 2021-12-12 21:07:05,681 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63020] to WebSocket
+[ERROR] 2021-12-12 21:07:06,230 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:07:06,239 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63020]
+[INFO] 2021-12-12 21:07:06,240 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63020]
+[DEBUG] 2021-12-12 21:07:09,359 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63022]
+[DEBUG] 2021-12-12 21:07:09,371 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63022]
+[DEBUG] 2021-12-12 21:07:09,372 daphne.http_protocol: HTTP close for ['127.0.0.1', 63022]
+[DEBUG] 2021-12-12 21:07:09,373 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63022]
+[INFO] 2021-12-12 21:07:09,373 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.01, 127.0.0.1:63022][0m
+[INFO] 2021-12-12 21:07:09,394 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63023]
+[DEBUG] 2021-12-12 21:07:09,395 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63023] to WebSocket
+[DEBUG] 2021-12-12 21:07:09,549 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:09,556 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:09,557 daphne.http_protocol: HTTP close for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:09,558 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63019]
+[INFO] 2021-12-12 21:07:09,558 django.channels.server: [mHTTP GET /chat/helpme/ 200 [0.01, 127.0.0.1:63019][0m
+[INFO] 2021-12-12 21:07:09,576 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63024]
+[DEBUG] 2021-12-12 21:07:09,577 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63024] to WebSocket
+[ERROR] 2021-12-12 21:07:10,243 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[ERROR] 2021-12-12 21:07:10,253 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:07:10,263 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63023]
+[INFO] 2021-12-12 21:07:10,263 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63023]
+[DEBUG] 2021-12-12 21:07:10,264 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63024]
+[INFO] 2021-12-12 21:07:10,264 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63024]
+[DEBUG] 2021-12-12 21:07:14,106 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:14,116 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:14,117 daphne.http_protocol: HTTP close for ['127.0.0.1', 63019]
+[DEBUG] 2021-12-12 21:07:14,118 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63019]
+[INFO] 2021-12-12 21:07:14,118 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.02, 127.0.0.1:63019][0m
+[INFO] 2021-12-12 21:07:14,141 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63026]
+[DEBUG] 2021-12-12 21:07:14,141 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63026] to WebSocket
+[ERROR] 2021-12-12 21:07:14,261 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:07:14,266 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63026]
+[INFO] 2021-12-12 21:07:14,266 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63026]
+[DEBUG] 2021-12-12 21:11:59,313 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:11:59,443 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:12:00,973 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:12:01,027 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:12:01,027 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:12:01,027 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-12 21:12:01,299 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-12 21:12:01,352 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-12 21:12:01,353 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-12 21:12:01,353 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-12 21:12:01,361 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-12 21:12:01,427 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-12 21:12:01,427 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-12 21:12:01,428 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-12 21:12:06,287 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:06,365 daphne.http_protocol: HTTP 500 response started for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:06,366 daphne.http_protocol: HTTP close for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:06,366 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63041]
+[ERROR] 2021-12-12 21:12:06,366 django.channels.server: [35;1mHTTP GET /chat/helpme/? 500 [0.08, 127.0.0.1:63041][0m
+[DEBUG] 2021-12-12 21:12:36,159 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,178 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,179 daphne.http_protocol: HTTP close for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,179 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63041]
+[INFO] 2021-12-12 21:12:36,180 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.02, 127.0.0.1:63041][0m
+[DEBUG] 2021-12-12 21:12:36,201 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,205 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,206 daphne.http_protocol: HTTP response chunk for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,206 daphne.http_protocol: HTTP close for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:36,206 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63041]
+[INFO] 2021-12-12 21:12:36,207 django.channels.server: [mHTTP GET /static/reconnecting-websocket.js 200 [0.01, 127.0.0.1:63041][0m
+[INFO] 2021-12-12 21:12:36,214 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63046]
+[DEBUG] 2021-12-12 21:12:36,214 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63046] to WebSocket
+[ERROR] 2021-12-12 21:12:36,451 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:36,455 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63046]
+[INFO] 2021-12-12 21:12:36,455 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63046]
+[INFO] 2021-12-12 21:12:37,495 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63047]
+[DEBUG] 2021-12-12 21:12:37,496 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63047] to WebSocket
+[ERROR] 2021-12-12 21:12:38,457 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:38,462 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63047]
+[INFO] 2021-12-12 21:12:38,462 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63047]
+[INFO] 2021-12-12 21:12:40,091 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63048]
+[DEBUG] 2021-12-12 21:12:40,092 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63048] to WebSocket
+[ERROR] 2021-12-12 21:12:40,463 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:40,468 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63048]
+[INFO] 2021-12-12 21:12:40,469 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63048]
+[INFO] 2021-12-12 21:12:42,769 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63051]
+[DEBUG] 2021-12-12 21:12:42,771 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63051] to WebSocket
+[ERROR] 2021-12-12 21:12:43,471 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:43,475 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63051]
+[INFO] 2021-12-12 21:12:43,476 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63051]
+[DEBUG] 2021-12-12 21:12:43,741 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,751 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,753 daphne.http_protocol: HTTP close for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,753 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63041]
+[INFO] 2021-12-12 21:12:43,753 django.channels.server: [mHTTP GET /chat/helpme/? 200 [0.01, 127.0.0.1:63041][0m
+[DEBUG] 2021-12-12 21:12:43,776 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,778 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,778 daphne.http_protocol: HTTP close for ['127.0.0.1', 63041]
+[DEBUG] 2021-12-12 21:12:43,778 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 63041]
+[INFO] 2021-12-12 21:12:43,778 django.channels.server: [36mHTTP GET /static/reconnecting-websocket.js 304 [0.00, 127.0.0.1:63041][0m
+[INFO] 2021-12-12 21:12:43,784 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63052]
+[DEBUG] 2021-12-12 21:12:43,784 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63052] to WebSocket
+[ERROR] 2021-12-12 21:12:44,476 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:44,482 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63052]
+[INFO] 2021-12-12 21:12:44,483 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63052]
+[INFO] 2021-12-12 21:12:45,604 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63053]
+[DEBUG] 2021-12-12 21:12:45,606 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63053] to WebSocket
+[ERROR] 2021-12-12 21:12:46,484 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:46,490 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63053]
+[INFO] 2021-12-12 21:12:46,490 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63053]
+[INFO] 2021-12-12 21:12:48,088 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63054]
+[DEBUG] 2021-12-12 21:12:48,089 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63054] to WebSocket
+[ERROR] 2021-12-12 21:12:48,491 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:48,501 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63054]
+[INFO] 2021-12-12 21:12:48,502 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63054]
+[INFO] 2021-12-12 21:12:50,804 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63056]
+[DEBUG] 2021-12-12 21:12:50,805 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63056] to WebSocket
+[ERROR] 2021-12-12 21:12:51,498 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:51,502 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63056]
+[INFO] 2021-12-12 21:12:51,502 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63056]
+[INFO] 2021-12-12 21:12:54,963 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63057]
+[DEBUG] 2021-12-12 21:12:54,963 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63057] to WebSocket
+[ERROR] 2021-12-12 21:12:55,506 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:12:55,512 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63057]
+[INFO] 2021-12-12 21:12:55,512 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63057]
+[INFO] 2021-12-12 21:13:00,628 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63058]
+[DEBUG] 2021-12-12 21:13:00,628 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63058] to WebSocket
+[ERROR] 2021-12-12 21:13:01,519 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:13:01,520 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63058]
+[INFO] 2021-12-12 21:13:01,520 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63058]
+[INFO] 2021-12-12 21:13:09,218 django.channels.server: WebSocket HANDSHAKING /ws/chat/helpme/ [127.0.0.1:63059]
+[DEBUG] 2021-12-12 21:13:09,218 daphne.http_protocol: Upgraded connection ['127.0.0.1', 63059] to WebSocket
+[ERROR] 2021-12-12 21:13:09,529 daphne.server: Exception inside application: __call__() missing 1 required positional argument: 'send'
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/asgiref/compatibility.py", line 35, in new_application
+    return await instance(receive, send)
+TypeError: __call__() missing 1 required positional argument: 'send'
+[DEBUG] 2021-12-12 21:13:09,531 daphne.ws_protocol: WebSocket closed for ['127.0.0.1', 63059]
+[INFO] 2021-12-12 21:13:09,531 django.channels.server: WebSocket DISCONNECT /ws/chat/helpme/ [127.0.0.1:63059]
+[DEBUG] 2021-12-12 21:13:14,934 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-12 21:13:15,060 asyncio: Using selector: KqueueSelector
