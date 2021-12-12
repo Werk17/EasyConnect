@@ -1,8 +1,8 @@
-from django.urls import path, re_path
+from django.urls import path
 
-from .views import index, room
+from . import views
 
 urlpatterns = [
-    path('chatchoose/', index, name='index'),
-    re_path(r'^(?P<room_name>[^/]+)/$', room, name='room'),
+    path('', views.index, name='index'),
+    path('<str:room_name>/', views.room, name='room'),
 ]
