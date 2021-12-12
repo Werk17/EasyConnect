@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    'log_viewer',
+    # 'log_viewer',
     'EasyConnect',
     'customuser',
     'announcements',
