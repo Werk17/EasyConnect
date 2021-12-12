@@ -49,8 +49,8 @@ INSTALLED_APPS = [
     'announcements',
     'ContactUs',
     'chat',
-    'channels',
-    'channels_redis',
+    # 'channels',
+    # 'channels_redis',
     
 ]
 
