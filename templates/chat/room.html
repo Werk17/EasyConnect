@@ -48,18 +48,21 @@
       </div>
       <div id="contacts">
         <ul>
-          {% for group in groups %}
+          <!-- {% for group in user.groups.all %}
+          {% if group.name != '{{ room_name_json }}' %}
             <li class="contact">
               <div class="wrap">
                 <span class="contact-status online"></span>
-                <img src="{{ group.photo.url }}" alt="" />
+                <img src="{% static 'default.png' %}" alt="" />
                 <div class="meta">
                   <p class="name">{{ group.name }}</p>
                   <p class="preview">{{ group.description }}</p>
                 </div>
               </div>
             </li>
-          {% endfor %}
+            <br>
+          {% endif %}
+          {% endfor %} -->
           <li class="contact active">
             <div class="wrap">
               <span class="contact-status busy"></span>
@@ -121,7 +124,7 @@
         '/ws/chat/' + roomName + '/');
 
     chatSocket.onopen = function(e) {
-      fetchMessages();
+      // fetchMessages();
     }
 
     chatSocket.onmessage = function(e) {
@@ -157,9 +160,9 @@
         messageInputDom.value = '';
     };
 
-    function fetchMessages() {
-      chatSocket.send(JSON.stringify({'command': 'fetch_messages' }));
-    }
+    // function fetchMessages() {
+    //   chatSocket.send(JSON.stringify({'command': 'fetch_messages' }));
+    // }
 
     function createMessage(data) {
       var author = data['author'];
@@ -173,6 +176,7 @@
         msgListTag.className = 'sent';
       } else {
         msgListTag.className = 'replies';
+        imgTag.src = "{% static 'default.png' %}";
       }
       msgListTag.appendChild(imgTag);
       msgListTag.appendChild(pTag);
