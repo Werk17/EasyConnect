@@ -1045,3 +1045,15 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [WARNING] 2021-12-13 09:15:28,571 django.request: Not Found: /chat/chatchoose/static/customstyle.css
 [WARNING] 2021-12-13 09:16:02,337 django.request: Not Found: /chat/chatchoose/static/customstyle.css
 [WARNING] 2021-12-13 09:16:36,081 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-13 22:46:09,508 django.request: Not Found: /favicon.ico
+[WARNING] 2021-12-13 22:47:16,258 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-13 22:48:13,991 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-13 22:49:17,269 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-13 22:49:40,238 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-13 22:50:20,308 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-13 23:17:42,854 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-13 23:17:56,109 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-13 23:18:45,237 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-13 23:20:32,156 django.request: Not Found: /home
+[WARNING] 2021-12-13 23:21:16,775 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-13 23:21:28,002 django.request: Not Found: /chat/chatchoose/static/customstyle.css
