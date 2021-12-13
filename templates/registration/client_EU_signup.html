@@ -101,6 +101,24 @@
 								<div class="input-group-append">
 									<span class="input-group-text"><i class="fas fa-user"></i></span>
 								</div>
+								{{form.first_name}}
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div>
+								{{form.last_name}}
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div>
+								{{form.phone_number}}
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div>
 								{{form.username}}
 							</div>
 							<div class="input-group mb-2">
@@ -187,15 +205,18 @@
 
 		//Query All input fields
 		var form_fields = document.getElementsByTagName('input')
-		form_fields[1].placeholder = 'Username..';
-		form_fields[2].placeholder = 'Email..';
-		form_fields[3].placeholder = 'Enter password...';
-		form_fields[4].placeholder = 'Re-enter Password...';
-		form_fields[5].placeholder = 'Display Name...';
-		form_fields[6].placeholder = 'Org Name...';
-		form_fields[7].placeholder = 'Org pin...';
-		form_fields[8].placeholder = 'Additional Info...';
-		form_fields[9].placeholder = 'Photo...';
+		form_fields[1].placeholder = 'First Name...';
+		form_fields[2].placeholder = 'Last Name...';
+		form_fields[3].placeholder = 'Phone...';
+		form_fields[4].placeholder = 'Username...';
+		form_fields[5].placeholder = 'Email...';
+		form_fields[6].placeholder = 'Enter password...';
+		form_fields[7].placeholder = 'Re-enter Password...';
+		form_fields[8].placeholder = 'Display Name...';
+		form_fields[9].placeholder = 'Org Name...';
+		form_fields[10].placeholder = 'Org pin...';
+		form_fields[11].placeholder = 'Additional Info...';
+		form_fields[12].placeholder = 'Photo...';
 
 
 		for (var field in form_fields) {

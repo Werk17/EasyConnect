@@ -12,7 +12,7 @@ class CustomUserCreationAdminForm(UserCreationForm):
     Organization_name = forms.CharField(required=True)
     class Meta(UserCreationForm):
         model = get_user_model()
-        fields = ('username', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'Organization_type', 'Organization_address', 'Organization_city', 'Organization_state', 'Organization_zip', 'additional_info', 'photo','Organizational_pin')
+        fields = ('username', 'first_name', 'last_name', 'phone_number', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'Organization_type', 'Organization_address', 'Organization_city', 'Organization_state', 'Organization_zip', 'additional_info', 'photo','Organizational_pin')
         logging.info("Forms added for Custom User Creation Admin Form")
 
 class CustomUserCreationEUForm(UserCreationForm):
@@ -21,7 +21,7 @@ class CustomUserCreationEUForm(UserCreationForm):
     Organizational_pin = forms.CharField(required=True)
     class Meta(UserCreationForm):
         model = get_user_model()
-        fields = ('username', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'additional_info', 'photo', 'Organizational_pin', 'Organizatoin_user_type')
+        fields = ('username','first_name', 'last_name', 'phone_number', 'email', 'password1', 'password2', 'display_name', 'Organization_name', 'additional_info', 'photo', 'Organizational_pin', 'Organizatoin_user_type')
         logging.info("Forms added for Custom User Creation EU Form")
         
 class CustomUserChangeForm(UserChangeForm):
