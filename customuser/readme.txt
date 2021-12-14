@@ -1,0 +1,3 @@
+This is the main custom user app. This handles a majority of the logic of our website. it allows users to create an account, groups for that account, and then a 
+token for their organization that they can use to allow others to join their work groups. Upon account creation, the user is added to specific groups, a token is
+created for the users organization, and the user is then redirected to the home page. this app also handled the logic for passoword reset, and password change.

@@ -1,0 +1,3 @@
+This is an announcement app that allows the admin to create, edit, and delete announcements for the users to see. We have a page on our homepage of the website
+that links these announcements to the announcements page. The admin can set if the announcement is visable to all users, and they can also set the level of security
+for the message. It can me an info announcement, a warning, or a critical message. 

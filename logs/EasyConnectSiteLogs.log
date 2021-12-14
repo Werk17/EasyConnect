@@ -15816,3 +15816,23 @@ RuntimeError: Single thread executor already being used, would deadlock
 [INFO] 2021-12-14 06:21:28,169 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
 [DEBUG] 2021-12-14 06:22:16,210 asyncio: Using selector: KqueueSelector
 [DEBUG] 2021-12-14 06:22:16,337 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 17:18:14,822 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 17:18:14,881 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 17:18:14,882 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 17:18:14,882 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 17:18:14,908 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 17:18:42,250 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 17:18:42,304 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 17:18:42,305 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 17:18:42,305 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 17:18:42,332 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 17:19:17,926 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 17:19:17,981 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 17:19:17,981 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 17:19:17,982 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 17:19:18,006 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 17:19:33,961 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 17:19:34,015 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 17:19:34,016 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 17:19:34,016 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 17:19:34,040 asyncio: Using selector: KqueueSelector

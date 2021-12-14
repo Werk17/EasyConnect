@@ -1,0 +1,2 @@
+The Contact us app allows users to send feetback to us. We get their email, with a subject and a message body. It get's sent to the admin portal on the admin site,
+and we are able to see it there. This is a page on the main app, in the contact us section.

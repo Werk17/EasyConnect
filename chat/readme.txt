@@ -1,0 +1,3 @@
+This is the main chat app. It has a model of message that get's the messages, and then uses the websocks to send and recieve messages. We originally had it saving 
+messages and then loading them each time a user connected to a chat, but without adding a lot of logic to handle what messaages get pulled when joining a room,
+it was loading the same messages over and over again. So, for now, the logic stands that users loose the messages once they leave a help room.
