@@ -2,7 +2,9 @@
 
 {% load static %}
 
-{% block title %}Contact Us Page {% endblock title %}
+{% block title %}Chat Homepage {% endblock title %}
+
+
 <!-- <link rel="stylesheet" href="{% static 'customstyle.css' %}"> -->
 {% block main %}
 <div class="container-fluid bg-dark">
@@ -22,17 +24,19 @@
 
     <div class="d-flex justify-content-center my-4" style="background-color: #70679b;">
         <div class="jumbotron">
-            <h1 style="padding-block-start: 0%; text-align: center;">Select Your Chat Room </h1>
+            <h1 style="padding-block-start: 0%; text-align: center; color: #4b4276;">Select Your Chat Room </h1>
             <hr>
 
-                <h2>What chat room would you like to enter?</h2><br><br>
-                <h4>These are the groups that you can join.</h4> <br>
+                <h2 style="color: #4b4276;">What chat room would you like to enter?</h2><br><br>
+                <h4 style="color: #4b4276;">These are the groups that you can join.</h4> <br>
                 {% for group in user.groups.all %}
                 {{ group.name }}<br/>
                 {% endfor %}
                 <br>
                 <input id="room-name-input" type="text" size="100"><br><br>
-                <input id="room-name-submit" type="button" value="Enter ">
+                <input style="background: #654ea3;
+                background: linear-gradient(to right, #e96443, #904e95);
+                " id="room-name-submit" type="button" value="Enter ">
                 <hr>
             </div>
         </div>

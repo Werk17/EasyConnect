@@ -31,7 +31,7 @@
 {% if not request.user.is_authenticated %}
 <div class="subcontent">Please <a href="{% url 'login' %}">login</a> to view profile page Information</div>
 {% else %}
-<div class="row py-5 px-4">
+<div class="row py-5 px-4 bg-dark">
   <div class="col-md-5 mx-auto">
     <!-- Profile widget -->
     <div class="bg-white shadow rounded overflow-hidden">
