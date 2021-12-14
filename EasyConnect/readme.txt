@@ -1,0 +1,1 @@
+This app basically just handles a lot of our homepage urls. It just made sense to have it in one place where we could, so that's why we created this app.
