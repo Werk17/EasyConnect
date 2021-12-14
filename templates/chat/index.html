@@ -26,7 +26,9 @@
         <div class="jumbotron">
             <h1 style="padding-block-start: 0%; text-align: center; color: #4b4276;">Select Your Chat Room </h1>
             <hr>
-
+            {% if not request.user.is_authenticated %}
+            <div class="subcontent">Please <a href="{% url 'login' %}">login</a> to view chat page Information</div>
+            {% else %}
                 <h2 style="color: #4b4276;">What chat room would you like to enter?</h2><br><br>
                 <h4 style="color: #4b4276;">These are the groups that you can join.</h4> <br>
                 {% for group in user.groups.all %}
@@ -38,6 +40,7 @@
                 background: linear-gradient(to right, #e96443, #904e95);
                 " id="room-name-submit" type="button" value="Enter ">
                 <hr>
+            {% endif %}
             </div>
         </div>
     </div>

@@ -1092,3 +1092,111 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [WARNING] 2021-12-13 19:07:53,719 django.request: Not Found: /chat/chatchoose/static/customstyle.css
 [WARNING] 2021-12-13 19:08:42,842 django.request: Not Found: /chat/chatchoose/static/customstyle.css
 [WARNING] 2021-12-13 19:08:46,229 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-14 05:24:07,778 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-14 05:24:18,867 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-14 05:25:48,770 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-14 05:26:16,620 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-14 05:26:21,857 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-14 05:29:41,621 django.request: Not Found: /about/
+[WARNING] 2021-12-14 05:31:57,462 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[WARNING] 2021-12-14 05:32:09,867 django.request: Not Found: /contact/static/customstyle.css
+[WARNING] 2021-12-14 05:32:56,927 django.request: Not Found: /chat/chatchoose/static/customstyle.css
+[ERROR] 2021-12-14 05:33:27,139 django.request: Internal Server Error: /announcements
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/EasyConnect/views.py", line 18, in AnnouncementsView
+    return render(request, 'announcements.html', context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/testcases.py", line 146, in __call__
+    raise AssertionError(self.message)
+AssertionError: Database queries to 'default' are not allowed in SimpleTestCase subclasses. Either subclass TestCase or TransactionTestCase to ensure proper test isolation or add 'default' to config.tests.SimpleTests.databases to silence this failure.
+[ERROR] 2021-12-14 05:35:04,661 django.request: Internal Server Error: /announcements
+Traceback (most recent call last):
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rileymarsden/Desktop/EasyConnect/EasyConnect/views.py", line 18, in AnnouncementsView
+    return render(request, 'announcements.html', context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Users/rileymarsden/.local/share/virtualenvs/EasyConnect-40Y_jyS5/lib/python3.9/site-packages/django/test/testcases.py", line 146, in __call__
+    raise AssertionError(self.message)
+AssertionError: Database queries to 'default' are not allowed in SimpleTestCase subclasses. Either subclass TestCase or TransactionTestCase to ensure proper test isolation or add 'default' to EasyConnect.tests.SimpleTests.databases to silence this failure.
+[WARNING] 2021-12-14 06:20:42,985 django.request: Not Found: /chat/chatchoose/static/customstyle.css

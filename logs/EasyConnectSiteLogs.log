@@ -14343,3 +14343,1476 @@ RuntimeError: Single thread executor already being used, would deadlock
 [INFO] 2021-12-13 19:08:49,296 django.channels.server: HTTP GET /static/homepagepic.png 304 [0.01, 127.0.0.1:58230]
 [DEBUG] 2021-12-13 19:10:55,040 asyncio: Using selector: SelectSelector
 [DEBUG] 2021-12-13 19:10:55,177 asyncio: Using selector: SelectSelector
+[DEBUG] 2021-12-14 05:23:57,716 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:23:57,798 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:23:57,799 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:23:57,799 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:23:58,073 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:23:58,127 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:23:58,128 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:23:58,128 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-14 05:23:58,136 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-14 05:23:58,230 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-14 05:23:58,230 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-14 05:23:58,231 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-14 05:24:03,852 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,895 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,896 daphne.http_protocol: HTTP close for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,896 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50567]
+[INFO] 2021-12-14 05:24:03,896 django.channels.server: [mHTTP GET / 200 [0.04, 127.0.0.1:50567][0m
+[DEBUG] 2021-12-14 05:24:03,918 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,919 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,920 daphne.http_protocol: HTTP close for ['127.0.0.1', 50567]
+[DEBUG] 2021-12-14 05:24:03,920 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50567]
+[INFO] 2021-12-14 05:24:03,920 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:50567][0m
+[DEBUG] 2021-12-14 05:24:03,921 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50569]
+[DEBUG] 2021-12-14 05:24:03,922 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50569]
+[DEBUG] 2021-12-14 05:24:03,922 daphne.http_protocol: HTTP close for ['127.0.0.1', 50569]
+[DEBUG] 2021-12-14 05:24:03,923 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50569]
+[INFO] 2021-12-14 05:24:03,923 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50569][0m
+[DEBUG] 2021-12-14 05:24:07,749 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:07,764 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:07,764 daphne.http_protocol: HTTP close for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:07,765 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50571]
+[INFO] 2021-12-14 05:24:07,765 django.channels.server: [mHTTP GET /contact/ 200 [0.02, 127.0.0.1:50571][0m
+[DEBUG] 2021-12-14 05:24:07,766 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,778 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,779 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,779 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[WARNING] 2021-12-14 05:24:07,779 django.channels.server: [33mHTTP GET /contact/static/customstyle.css 404 [0.01, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:07,784 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,785 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,786 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:07,786 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[INFO] 2021-12-14 05:24:07,786 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:18,836 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,852 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,853 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,854 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[INFO] 2021-12-14 05:24:18,854 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.02, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:18,857 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,867 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,868 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,868 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[WARNING] 2021-12-14 05:24:18,868 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.01, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:18,877 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,878 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,878 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:18,879 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[INFO] 2021-12-14 05:24:18,879 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:35,332 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,354 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,356 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,356 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[INFO] 2021-12-14 05:24:35,357 django.channels.server: [mHTTP GET /profile 200 [0.02, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:35,379 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,381 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:35,384 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,384 daphne.http_protocol: HTTP close for ['127.0.0.1', 50570]
+[DEBUG] 2021-12-14 05:24:35,385 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50570]
+[INFO] 2021-12-14 05:24:35,385 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.01, 127.0.0.1:50570][0m
+[DEBUG] 2021-12-14 05:24:35,387 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:35,388 daphne.http_protocol: HTTP close for ['127.0.0.1', 50571]
+[DEBUG] 2021-12-14 05:24:35,388 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50571]
+[INFO] 2021-12-14 05:24:35,388 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.01, 127.0.0.1:50571][0m
+[DEBUG] 2021-12-14 05:25:45,834 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,849 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,851 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,851 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:25:45,851 django.channels.server: [mHTTP GET / 200 [0.02, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:25:45,870 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,875 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50582]
+[DEBUG] 2021-12-14 05:25:45,876 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,877 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:45,877 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:25:45,877 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.01, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:25:45,881 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50582]
+[DEBUG] 2021-12-14 05:25:45,882 daphne.http_protocol: HTTP close for ['127.0.0.1', 50582]
+[DEBUG] 2021-12-14 05:25:45,883 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50582]
+[INFO] 2021-12-14 05:25:45,883 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.01, 127.0.0.1:50582][0m
+[DEBUG] 2021-12-14 05:25:48,742 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,755 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,757 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,757 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:25:48,758 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.02, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:25:48,760 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,771 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,772 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,772 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[WARNING] 2021-12-14 05:25:48,772 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.01, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:25:48,780 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,782 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,782 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:25:48,782 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:25:48,783 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:26:16,570 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,582 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,583 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,584 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:26:16,584 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.01, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:26:16,606 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,609 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50586]
+[DEBUG] 2021-12-14 05:26:16,621 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,621 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:16,621 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[WARNING] 2021-12-14 05:26:16,621 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.02, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:26:16,623 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50586]
+[DEBUG] 2021-12-14 05:26:16,623 daphne.http_protocol: HTTP close for ['127.0.0.1', 50586]
+[DEBUG] 2021-12-14 05:26:16,623 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50586]
+[INFO] 2021-12-14 05:26:16,623 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.01, 127.0.0.1:50586][0m
+[DEBUG] 2021-12-14 05:26:21,824 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,848 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,849 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,849 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:26:21,849 django.channels.server: [mHTTP GET /contact/ 200 [0.03, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:26:21,851 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,858 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,858 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,858 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[WARNING] 2021-12-14 05:26:21,859 django.channels.server: [33mHTTP GET /contact/static/customstyle.css 404 [0.01, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:26:21,872 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,873 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,874 daphne.http_protocol: HTTP close for ['127.0.0.1', 50581]
+[DEBUG] 2021-12-14 05:26:21,874 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50581]
+[INFO] 2021-12-14 05:26:21,875 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50581][0m
+[DEBUG] 2021-12-14 05:29:31,354 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:29:31,484 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:29:41,431 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:29:41,485 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:29:41,485 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:29:41,486 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:29:41,650 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:30:06,215 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:30:06,269 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:30:06,269 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:30:06,270 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:30:06,541 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:30:06,595 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:30:06,596 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:30:06,596 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-14 05:30:06,604 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-14 05:30:06,675 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-14 05:30:06,675 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-14 05:30:06,676 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-14 05:30:09,164 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,202 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,203 daphne.http_protocol: HTTP close for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,203 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50615]
+[INFO] 2021-12-14 05:30:09,203 django.channels.server: [mHTTP GET /about 200 [0.04, 127.0.0.1:50615][0m
+[DEBUG] 2021-12-14 05:30:09,226 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,227 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,228 daphne.http_protocol: HTTP close for ['127.0.0.1', 50615]
+[DEBUG] 2021-12-14 05:30:09,228 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50615]
+[INFO] 2021-12-14 05:30:09,228 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:50615][0m
+[DEBUG] 2021-12-14 05:30:09,229 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50616]
+[DEBUG] 2021-12-14 05:30:09,230 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50616]
+[DEBUG] 2021-12-14 05:30:09,231 daphne.http_protocol: HTTP close for ['127.0.0.1', 50616]
+[DEBUG] 2021-12-14 05:30:09,231 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50616]
+[INFO] 2021-12-14 05:30:09,231 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50616][0m
+[DEBUG] 2021-12-14 05:30:21,624 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:30:21,750 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:30:23,355 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:30:23,409 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:30:23,410 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:30:23,410 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:30:23,564 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:31:35,816 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:31:35,870 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:31:35,871 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:31:35,871 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:31:36,144 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:31:36,204 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:31:36,205 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:31:36,205 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-14 05:31:36,214 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-14 05:31:36,289 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-14 05:31:36,289 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-14 05:31:36,290 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-14 05:31:38,883 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,924 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,925 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,925 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:31:38,925 django.channels.server: [mHTTP GET /profile 200 [0.04, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:31:38,947 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,948 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,949 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:38,949 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:31:38,949 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:31:38,950 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:38,951 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:38,952 daphne.http_protocol: HTTP close for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:38,952 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50633]
+[INFO] 2021-12-14 05:31:38,952 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50633][0m
+[DEBUG] 2021-12-14 05:31:57,430 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,438 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,440 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,440 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:31:57,440 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.01, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:31:57,445 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,459 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:57,463 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,463 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:31:57,463 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[WARNING] 2021-12-14 05:31:57,463 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.02, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:31:57,465 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:57,465 daphne.http_protocol: HTTP close for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:31:57,466 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50633]
+[INFO] 2021-12-14 05:31:57,466 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.01, 127.0.0.1:50633][0m
+[DEBUG] 2021-12-14 05:32:09,823 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,853 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,854 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,855 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:32:09,855 django.channels.server: [mHTTP GET /contact/ 200 [0.03, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:09,858 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,867 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,868 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,868 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[WARNING] 2021-12-14 05:32:09,869 django.channels.server: [33mHTTP GET /contact/static/customstyle.css 404 [0.01, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:09,878 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,880 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,880 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:09,881 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:32:09,881 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:26,097 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,120 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,120 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,120 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:32:26,120 django.channels.server: [mHTTP GET /announcements 200 [0.02, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:26,137 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,140 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,140 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:26,141 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:26,142 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:32:26,142 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.00, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:26,144 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:26,144 daphne.http_protocol: HTTP close for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:26,144 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50633]
+[INFO] 2021-12-14 05:32:26,145 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50633][0m
+[DEBUG] 2021-12-14 05:32:56,897 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,904 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,905 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,906 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[INFO] 2021-12-14 05:32:56,906 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.01, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:56,910 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,928 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:56,929 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,930 daphne.http_protocol: HTTP close for ['127.0.0.1', 50632]
+[DEBUG] 2021-12-14 05:32:56,930 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50632]
+[WARNING] 2021-12-14 05:32:56,930 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.02, 127.0.0.1:50632][0m
+[DEBUG] 2021-12-14 05:32:56,931 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:56,932 daphne.http_protocol: HTTP close for ['127.0.0.1', 50633]
+[DEBUG] 2021-12-14 05:32:56,932 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 50633]
+[INFO] 2021-12-14 05:32:56,932 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:50633][0m
+[DEBUG] 2021-12-14 05:33:25,101 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:33:25,227 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:33:26,931 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:33:26,986 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:33:26,987 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:33:26,987 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:33:27,295 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:33:59,390 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:33:59,445 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:33:59,446 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:33:59,446 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:33:59,700 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:35:04,484 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:35:04,538 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:35:04,539 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:35:04,539 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:35:04,951 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:42:00,768 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:42:00,823 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:42:00,823 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:42:00,824 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:42:01,053 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:42:21,294 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:42:21,348 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:42:21,348 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:42:21,349 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:42:21,372 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:43:15,321 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:43:15,375 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:43:15,376 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:43:15,376 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:43:15,400 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:43:32,430 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:43:32,483 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:43:32,484 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:43:32,484 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:43:32,507 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:43:59,867 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:43:59,921 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:43:59,922 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:43:59,922 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:43:59,945 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:44:20,635 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:44:20,689 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:44:20,690 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:44:20,690 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:44:20,713 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:45:30,625 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:45:30,679 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:45:30,679 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:45:30,680 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:45:30,703 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:46:32,612 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:46:32,667 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:46:32,667 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:46:32,667 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:46:32,691 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:51:10,875 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:51:10,930 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:51:10,931 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:51:10,931 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:51:10,954 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:52:03,907 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:52:03,961 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:52:03,961 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:52:03,962 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:52:03,985 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:53:27,882 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:53:27,938 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:53:27,938 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:53:27,939 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:53:27,962 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:54:29,440 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:54:29,494 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:54:29,495 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:54:29,495 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:54:29,520 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:54:52,852 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:54:52,906 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:54:52,907 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:54:52,907 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:54:52,930 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:55:25,926 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:55:25,980 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:55:25,981 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:55:25,981 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:55:26,004 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:56:08,647 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:56:08,701 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:56:08,701 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:56:08,701 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:56:08,725 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:57:21,249 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:57:21,303 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:57:21,303 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:57:21,304 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:57:21,327 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:57:46,162 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:57:46,217 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:57:46,218 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:57:46,218 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:57:46,241 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:58:42,501 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:58:42,557 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:58:42,558 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:58:42,558 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:58:42,581 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:59:04,749 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:59:04,803 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:59:04,803 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:59:04,804 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:59:04,827 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:59:21,258 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:59:21,313 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:59:21,313 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:59:21,314 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:59:21,337 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 05:59:47,240 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 05:59:47,294 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 05:59:47,295 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 05:59:47,295 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 05:59:47,318 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:01:54,910 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:01:54,964 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:01:54,965 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:01:54,965 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:01:54,989 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:03:08,212 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:03:08,267 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:03:08,268 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:03:08,268 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:03:08,292 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:04:07,084 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:04:07,137 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:04:07,138 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:04:07,138 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:04:07,163 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:06:21,362 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:06:21,416 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:06:21,416 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:06:21,417 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:06:21,440 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:07:41,478 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:07:41,532 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:07:41,533 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:07:41,533 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:07:41,557 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:07:56,137 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:07:56,190 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:07:56,191 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:07:56,191 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:07:56,215 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:08:54,309 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:08:54,363 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:08:54,364 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:08:54,364 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:08:54,388 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:09:22,886 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:09:22,940 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:09:22,941 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:09:22,941 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:09:22,965 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:10:50,055 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:10:50,109 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:10:50,110 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:10:50,110 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:10:50,134 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:11:41,561 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:11:41,615 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:11:41,616 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:11:41,616 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:11:41,640 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:11:54,046 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:11:54,100 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:11:54,100 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:11:54,101 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:11:54,125 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:12:57,651 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:12:57,705 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:12:57,706 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:12:57,706 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:12:57,730 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:13:14,157 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:13:14,211 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:13:14,212 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:13:14,212 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:13:14,236 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:14:23,957 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:14:24,011 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:14:24,012 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:14:24,012 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:14:24,036 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:15:31,229 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:15:31,283 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:15:31,284 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:15:31,284 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:15:31,308 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:15:52,328 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:15:52,382 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:15:52,382 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:15:52,383 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:15:52,407 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:18:08,937 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:18:08,992 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:18:08,992 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:18:08,993 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:18:09,016 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:18:45,288 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:18:45,341 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:18:45,342 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:18:45,342 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:18:45,366 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:19:10,773 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:19:10,827 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:19:10,828 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:19:10,828 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:19:10,852 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:19:26,133 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:19:26,187 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:19:26,188 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:19:26,188 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:19:26,212 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:19:43,953 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:19:44,007 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:19:44,007 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:19:44,008 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:19:44,031 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:20:38,196 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:20:38,250 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:20:38,250 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:20:38,251 customuser.forms: Forms added for Custom User Change Form
+[DEBUG] 2021-12-14 06:20:38,518 asyncio: Using selector: KqueueSelector
+[INFO] 2021-12-14 06:20:38,572 customuser.forms: Forms added for Custom User Creation Admin Form
+[INFO] 2021-12-14 06:20:38,573 customuser.forms: Forms added for Custom User Creation EU Form
+[INFO] 2021-12-14 06:20:38,573 customuser.forms: Forms added for Custom User Change Form
+[INFO] 2021-12-14 06:20:38,581 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2021-12-14 06:20:38,648 daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2021-12-14 06:20:38,648 daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2021-12-14 06:20:38,649 daphne.server: Listening on TCP address 127.0.0.1:8000
+[DEBUG] 2021-12-14 06:20:42,944 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:42,975 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:42,976 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:42,977 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:42,977 django.channels.server: [mHTTP GET /chat/chatchoose/ 200 [0.03, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:42,978 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:42,986 daphne.http_protocol: HTTP 404 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:42,986 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:42,986 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[WARNING] 2021-12-14 06:20:42,986 django.channels.server: [33mHTTP GET /chat/chatchoose/static/customstyle.css 404 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:42,999 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:43,000 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:43,000 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:43,000 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:43,001 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:44,817 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,831 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,832 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,833 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:44,833 django.channels.server: [mHTTP GET / 200 [0.02, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:44,852 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,855 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,856 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:44,857 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:44,857 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:44,857 django.channels.server: [36mHTTP GET /static/customstyle.css 304 [0.01, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:44,859 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:44,860 daphne.http_protocol: HTTP close for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:44,860 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51257]
+[INFO] 2021-12-14 06:20:44,860 django.channels.server: [36mHTTP GET /static/homepagepic.png 304 [0.00, 127.0.0.1:51257][0m
+[DEBUG] 2021-12-14 06:20:46,655 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,681 daphne.http_protocol: HTTP 302 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,682 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,682 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,682 django.channels.server: [32mHTTP GET /admin/ 302 [0.03, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:46,692 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,730 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,730 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,730 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,730 django.channels.server: [mHTTP GET /admin/login/?next=/admin/ 200 [0.04, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:46,732 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,734 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,735 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,735 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,736 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,736 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,737 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:46,737 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:46,737 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,737 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,739 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,740 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,740 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,740 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:46,741 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:46,742 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,743 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,743 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,743 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:46,743 django.channels.server: [36mHTTP GET /static/admin/css/dashboard.css 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:46,744 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,745 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,746 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:46,746 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,747 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51263]
+[DEBUG] 2021-12-14 06:20:46,747 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51264]
+[DEBUG] 2021-12-14 06:20:46,748 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,748 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:46,748 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:46,748 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51265]
+[DEBUG] 2021-12-14 06:20:46,749 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,750 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,751 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,751 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:46,751 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:46,752 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,752 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,753 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,753 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:20:46,753 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.02, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:20:46,753 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,754 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,754 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:46,754 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:46,755 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.02, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:46,756 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,756 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:46,756 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:46,756 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:46,757 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,757 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:46,757 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:46,757 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:46,758 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,759 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,759 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,759 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:46,760 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:46,760 daphne.http_protocol: HTTP close for ['127.0.0.1', 51257]
+[DEBUG] 2021-12-14 06:20:46,760 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51257]
+[INFO] 2021-12-14 06:20:46,760 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51257][0m
+[DEBUG] 2021-12-14 06:20:46,761 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,762 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51263]
+[DEBUG] 2021-12-14 06:20:46,762 daphne.http_protocol: HTTP close for ['127.0.0.1', 51263]
+[DEBUG] 2021-12-14 06:20:46,762 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51263]
+[INFO] 2021-12-14 06:20:46,762 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.02, 127.0.0.1:51263][0m
+[DEBUG] 2021-12-14 06:20:46,763 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51264]
+[DEBUG] 2021-12-14 06:20:46,764 daphne.http_protocol: HTTP response chunk for ['127.0.0.1', 51264]
+[DEBUG] 2021-12-14 06:20:46,764 daphne.http_protocol: HTTP close for ['127.0.0.1', 51264]
+[DEBUG] 2021-12-14 06:20:46,764 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51264]
+[INFO] 2021-12-14 06:20:46,764 django.channels.server: [mHTTP GET /static/admin/css/login.css 200 [0.02, 127.0.0.1:51264][0m
+[DEBUG] 2021-12-14 06:20:46,765 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51265]
+[DEBUG] 2021-12-14 06:20:46,766 daphne.http_protocol: HTTP close for ['127.0.0.1', 51265]
+[DEBUG] 2021-12-14 06:20:46,766 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51265]
+[INFO] 2021-12-14 06:20:46,766 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:51265][0m
+[DEBUG] 2021-12-14 06:20:46,767 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,767 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:46,767 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:46,767 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.02, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:46,768 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,768 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:46,768 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:46,768 django.channels.server: [36mHTTP GET /static/admin/img/icon-deletelink.svg 304 [0.02, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:46,769 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,769 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:46,770 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:20:46,770 django.channels.server: [36mHTTP GET /static/admin/img/icon-changelink.svg 304 [0.02, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:20:46,770 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,771 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,771 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,771 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:46,776 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,777 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,777 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,777 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,778 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:46,784 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,785 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,786 daphne.http_protocol: HTTP close for ['127.0.0.1', 51255]
+[DEBUG] 2021-12-14 06:20:46,786 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51255]
+[INFO] 2021-12-14 06:20:46,786 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51255][0m
+[DEBUG] 2021-12-14 06:20:49,713 daphne.http_protocol: HTTP b'POST' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,861 daphne.http_protocol: HTTP 302 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,862 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,862 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,862 django.channels.server: [32mHTTP POST /admin/login/?next=/admin/ 302 [0.15, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:49,866 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,881 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,882 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,882 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,882 django.channels.server: [mHTTP GET /admin/ 200 [0.02, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:49,893 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,894 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,894 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:49,895 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:49,896 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,896 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,897 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,897 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:49,898 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,898 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,898 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:49,899 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:49,899 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,900 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:49,900 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:49,900 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:49,901 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:49,901 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:49,902 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:49,902 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:49,902 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:49,903 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,903 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,903 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,903 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:49,909 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,910 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,910 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,911 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:49,911 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:49,911 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:49,912 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,912 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,912 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,912 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:49,915 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,916 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,916 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:49,916 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:49,916 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,004 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,086 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,086 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,086 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,086 django.channels.server: [mHTTP GET /admin/customuser/customuser/ 200 [0.08, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,089 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,093 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,094 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,094 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:53,094 django.channels.server: [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:53,104 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,105 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,106 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,107 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,108 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,108 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,109 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,109 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,109 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,110 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,111 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,112 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,112 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,112 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:53,113 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:53,114 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,114 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,115 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,115 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:53,115 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:53,116 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,117 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,117 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,117 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:53,117 django.channels.server: [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:53,118 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,119 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,119 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,119 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:53,119 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:53,120 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,121 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,121 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,122 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:20:53,122 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:20:53,122 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,123 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,123 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,123 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,124 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,124 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,125 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,125 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,125 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:53,125 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:53,126 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,126 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,126 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,127 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:53,127 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:53,127 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,128 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,128 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,128 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:53,128 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:53,129 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,129 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,130 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,130 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:53,130 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:53,130 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,131 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,131 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:20:53,131 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:20:53,131 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:20:53,132 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,132 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,133 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,133 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,134 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,134 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,134 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:53,134 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:53,135 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,135 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,135 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:53,135 django.channels.server: [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:53,136 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,136 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,137 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:53,137 django.channels.server: [36mHTTP GET /static/admin/img/icon-no.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:53,137 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,138 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,138 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:53,138 django.channels.server: [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:53,168 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,168 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,168 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,169 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,169 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,170 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,170 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,170 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,170 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:20:53,171 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,172 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:20:53,172 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:20:53,172 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:20:53,173 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,173 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:20:53,173 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:20:53,173 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:20:53,174 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,174 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:20:53,175 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:20:53,175 django.channels.server: [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:20:53,176 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,176 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:20:53,176 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:20:53,176 django.channels.server: [36mHTTP GET /static/admin/img/sorting-icons.svg 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:20:53,195 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,196 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,196 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:20:53,196 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:20:53,196 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,701 daphne.http_protocol: HTTP b'POST' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,756 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,756 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,757 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,757 django.channels.server: [mHTTP POST /admin/customuser/customuser/ 200 [0.06, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,772 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,773 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,773 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,774 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,774 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,775 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,775 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,776 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,776 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,776 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,778 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,778 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,779 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,779 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:09,779 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:09,781 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,782 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,782 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,782 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:09,782 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:09,783 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,784 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,785 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,785 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:09,785 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:09,786 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,787 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,787 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,787 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:09,788 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:09,789 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,789 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,790 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,790 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:09,790 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:09,791 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,792 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,792 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,792 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,792 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,793 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,794 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,795 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,795 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:09,795 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:09,796 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,796 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,797 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,797 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:09,797 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:09,798 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,798 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:09,798 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:09,798 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:09,799 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,800 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:09,800 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:09,800 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:09,801 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,801 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:09,801 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:09,801 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:09,802 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,803 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,803 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,803 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,804 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,805 daphne.http_protocol: HTTP response chunk for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,806 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,806 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:09,806 django.channels.server: [mHTTP GET /static/admin/js/cancel.js 200 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:09,823 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,824 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,824 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,825 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,825 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,825 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,825 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:09,826 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,827 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:09,827 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:09,827 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:09,828 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,828 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:09,828 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:09,828 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:09,834 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,835 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,835 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:09,836 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:09,836 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,176 daphne.http_protocol: HTTP b'POST' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,246 daphne.http_protocol: HTTP 302 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,247 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,247 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,247 django.channels.server: [32mHTTP POST /admin/customuser/customuser/ 302 [0.07, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,254 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,286 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,286 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,286 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,286 django.channels.server: [mHTTP GET /admin/customuser/customuser/ 200 [0.03, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,300 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,301 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,301 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,302 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,302 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,303 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,304 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,304 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,304 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,304 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,306 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,306 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,306 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,306 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:13,307 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:13,307 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,308 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,309 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,309 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:13,309 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:13,310 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,310 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,311 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,311 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:13,311 django.channels.server: [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:13,312 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,315 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,315 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,315 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:13,315 django.channels.server: [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:13,316 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,317 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,317 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,317 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:13,317 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:13,318 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,319 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,319 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,319 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,319 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,320 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,320 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,320 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,321 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:13,321 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:13,321 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,322 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,322 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,322 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:13,322 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:13,323 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,324 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,324 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,324 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:13,324 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:13,325 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,326 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,326 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,326 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:13,326 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:13,327 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,327 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,327 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:13,327 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:13,328 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:13,328 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,329 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,329 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,329 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,330 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,330 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,330 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:13,330 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:13,331 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,331 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,331 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:13,331 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:13,332 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,333 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,333 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:13,333 django.channels.server: [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:13,334 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,334 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,334 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:13,334 django.channels.server: [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:13,347 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,348 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,348 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,349 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,349 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,350 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,350 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,350 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,350 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:13,351 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,351 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:13,352 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:13,352 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:13,352 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,353 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:13,353 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:13,353 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:13,354 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,354 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:13,354 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:13,354 django.channels.server: [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.00, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:13,355 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,356 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:13,356 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:13,356 django.channels.server: [36mHTTP GET /static/admin/img/sorting-icons.svg 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:13,368 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,369 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,369 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:13,369 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:13,369 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,650 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,727 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,727 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,727 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,727 django.channels.server: [mHTTP GET /admin/auth/group/ 200 [0.08, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,740 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,741 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,742 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,742 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,743 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,743 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,743 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,743 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,744 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,744 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,745 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,746 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,746 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,747 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:15,747 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:15,748 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,748 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,749 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,749 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:15,749 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:15,750 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,751 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,751 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,752 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:15,752 django.channels.server: [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:15,753 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,756 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,756 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,757 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:15,757 django.channels.server: [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:15,758 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,758 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,759 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,759 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:15,759 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:15,759 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,760 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,760 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,760 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,760 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,761 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,762 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,762 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,762 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:15,762 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:15,763 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,763 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,764 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,764 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:15,764 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:15,765 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,765 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,766 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,766 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:15,766 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:15,766 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,767 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,768 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:15,768 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:15,768 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:15,769 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,769 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:15,769 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:15,769 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:15,770 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,770 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,770 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,771 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,771 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,772 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,772 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:15,772 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:15,773 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,773 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,773 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:15,773 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:15,774 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,774 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,774 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:15,774 django.channels.server: [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:15,789 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,789 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,790 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,791 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,791 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,792 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,792 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,792 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:15,793 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,793 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:15,793 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:15,793 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:15,794 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,795 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:15,795 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:15,795 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:15,796 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,796 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:15,796 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:15,796 django.channels.server: [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:15,807 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,808 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,809 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:15,809 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:15,809 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,397 daphne.http_protocol: HTTP b'POST' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,423 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,423 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,423 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,423 django.channels.server: [mHTTP POST /admin/auth/group/ 200 [0.03, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,435 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,436 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,436 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,437 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,438 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,438 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,439 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,439 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,440 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,440 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,441 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,442 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,442 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,443 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:23,443 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:23,443 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,444 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,445 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,445 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:23,445 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:23,446 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,446 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,447 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,447 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:23,447 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:23,449 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,449 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,450 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,450 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:23,450 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:23,451 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,451 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,452 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,452 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:23,452 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:23,453 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,453 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,454 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,454 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,454 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,455 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,455 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,456 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,456 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:23,456 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:23,457 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,457 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,458 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,458 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:23,458 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:23,459 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,459 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:23,459 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:23,459 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:23,460 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,461 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:23,461 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:23,461 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:23,462 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,462 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:23,462 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:23,462 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:23,464 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,464 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,464 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,464 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,465 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,466 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,466 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:23,466 django.channels.server: [36mHTTP GET /static/admin/js/cancel.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:23,482 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,483 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,483 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,484 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,484 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,484 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,484 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:23,485 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,486 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:23,486 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:23,486 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:23,487 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,487 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:23,487 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:23,487 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:23,493 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,494 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,494 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:23,494 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:23,494 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,818 daphne.http_protocol: HTTP b'POST' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,852 daphne.http_protocol: HTTP 302 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,853 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,853 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,853 django.channels.server: [32mHTTP POST /admin/auth/group/ 302 [0.03, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,860 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,877 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,877 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,877 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,877 django.channels.server: [mHTTP GET /admin/auth/group/ 200 [0.02, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,888 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,889 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,889 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,890 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,890 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,891 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,891 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,891 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,892 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,892 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,893 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,894 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,894 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,894 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:25,894 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:25,895 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,896 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,896 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,896 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:25,896 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:25,897 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,898 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,898 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,899 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:25,899 django.channels.server: [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:25,900 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,902 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,903 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,903 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:25,903 django.channels.server: [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:25,904 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,904 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,905 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,905 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:25,905 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:25,905 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,906 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,906 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,906 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,906 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,907 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,908 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,908 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,908 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:25,908 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:25,909 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,909 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,909 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,910 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:25,910 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:25,910 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,911 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,911 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,911 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:25,911 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:25,912 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,912 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,913 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:25,913 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:25,913 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:25,914 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,914 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:25,914 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:25,914 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:25,915 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,915 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,915 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,915 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,916 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,917 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,917 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:25,917 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:25,918 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,918 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,918 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:25,918 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:25,919 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,919 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,920 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:25,920 django.channels.server: [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:25,933 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,934 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,934 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,934 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,934 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,935 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,935 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,935 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,936 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,936 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,937 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:25,937 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:25,937 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,938 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:25,938 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:25,938 django.channels.server: [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.00, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:25,939 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,939 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:25,939 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:25,939 django.channels.server: [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:25,948 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,949 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,950 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,950 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:25,950 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:25,950 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:25,951 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,951 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:25,952 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:25,952 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:28,026 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,087 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,088 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,088 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,088 django.channels.server: [mHTTP GET /admin/announcements/announcement/ 200 [0.06, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:28,102 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,103 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,104 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,105 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,106 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,106 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,107 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,107 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,108 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,108 django.channels.server: [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:28,109 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,110 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,111 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,111 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:28,111 django.channels.server: [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:28,112 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,113 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,114 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,114 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:28,114 django.channels.server: [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:28,116 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,117 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,117 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,117 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:28,117 django.channels.server: [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:28,119 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,122 daphne.http_protocol: HTTP 200 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,123 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,123 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:28,123 django.channels.server: [mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:28,124 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,125 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,125 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,125 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:28,125 django.channels.server: [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:28,126 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,127 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,127 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,127 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,127 django.channels.server: [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:28,128 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,128 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,129 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,129 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:28,129 django.channels.server: [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:28,130 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,130 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,130 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,131 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:28,131 django.channels.server: [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:28,131 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,132 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,132 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,132 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:28,132 django.channels.server: [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:28,133 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,134 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,134 daphne.http_protocol: HTTP close for ['127.0.0.1', 51261]
+[DEBUG] 2021-12-14 06:21:28,134 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51261]
+[INFO] 2021-12-14 06:21:28,134 django.channels.server: [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51261][0m
+[DEBUG] 2021-12-14 06:21:28,135 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,136 daphne.http_protocol: HTTP close for ['127.0.0.1', 51262]
+[DEBUG] 2021-12-14 06:21:28,136 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51262]
+[INFO] 2021-12-14 06:21:28,136 django.channels.server: [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51262][0m
+[DEBUG] 2021-12-14 06:21:28,137 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,137 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,137 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,137 django.channels.server: [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:28,138 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,138 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,138 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:28,138 django.channels.server: [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:28,139 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,140 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,140 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:28,140 django.channels.server: [36mHTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:28,140 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,141 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,141 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:28,141 django.channels.server: [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:28,157 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,157 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,158 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,158 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,159 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,159 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,159 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,160 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:21:28,161 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,161 daphne.http_protocol: HTTP close for ['127.0.0.1', 51258]
+[DEBUG] 2021-12-14 06:21:28,161 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51258]
+[INFO] 2021-12-14 06:21:28,161 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.00, 127.0.0.1:51258][0m
+[DEBUG] 2021-12-14 06:21:28,162 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,163 daphne.http_protocol: HTTP close for ['127.0.0.1', 51259]
+[DEBUG] 2021-12-14 06:21:28,163 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51259]
+[INFO] 2021-12-14 06:21:28,163 django.channels.server: [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.01, 127.0.0.1:51259][0m
+[DEBUG] 2021-12-14 06:21:28,164 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,164 daphne.http_protocol: HTTP close for ['127.0.0.1', 51260]
+[DEBUG] 2021-12-14 06:21:28,164 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51260]
+[INFO] 2021-12-14 06:21:28,164 django.channels.server: [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:51260][0m
+[DEBUG] 2021-12-14 06:21:28,168 daphne.http_protocol: HTTP b'GET' request for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,169 daphne.http_protocol: HTTP 304 response started for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,169 daphne.http_protocol: HTTP close for ['127.0.0.1', 51256]
+[DEBUG] 2021-12-14 06:21:28,169 daphne.http_protocol: HTTP response complete for ['127.0.0.1', 51256]
+[INFO] 2021-12-14 06:21:28,169 django.channels.server: [36mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:51256][0m
+[DEBUG] 2021-12-14 06:22:16,210 asyncio: Using selector: KqueueSelector
+[DEBUG] 2021-12-14 06:22:16,337 asyncio: Using selector: KqueueSelector
